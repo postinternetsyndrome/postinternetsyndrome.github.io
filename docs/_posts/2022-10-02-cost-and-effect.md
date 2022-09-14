@@ -217,11 +217,11 @@ This article uses the [NISEI Comprehensive Rules Document version 1.6](https://n
 *Chapter 9: Abilities*  
 9.1.5b (p.85)  
 9.1.6d (p.35)  
-9.6.7d (p.98)
-9.12.2b (p.115)
+9.6.7d (p.98)  
+9.12.2b (p.115)  
 9.12.2d (p.116)
 
-*Chapter 10: Additional Rules*
+*Chapter 10: Additional Rules*  
 10.1.2a (p.118)
 
 **Cards mentioned:**  
