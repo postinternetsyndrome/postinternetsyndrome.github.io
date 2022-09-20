@@ -1,17 +1,17 @@
 ---
 layout: post
 title:  "Cost and effect"
-date:   2022-09-18 12:00:00 +0200
+date:   2022-09-20 12:00:00 +0200
 categories: essays
 tags: [cr-1.6, ncigs]
 image:
   path: /images/overclock (watermarked).png
   feature: overclock (watermarked).png
-  credit: Scott Uminga
-  creditlink: https://www.scottuminga.com/post/647115414557671424/overclock-niseis-system-gateway-scott-uminga
+  credit: Project NISEI/Scott Uminga
+  creditlink: https://nisei.net/
 ---
 
-*The year is 2015 and you're in the last round of swiss at a local store championship. It's turn 3 and you have your [Lady](https://netrunnerdb.com/en/card/29006) installed, but it's out of counters. Luckily, you have [Scavenge](https://netrunnerdb.com/en/card/03034) in your grip. You raise your hand and yell "JUDGE!", causing your opponent to levitate briefly. The judge arrives, and you ask: "Can you please confirm that I am allowed play Scavenge here even though my heap is empty?" "Yes indeed, you are", says the judge after glancing at your grip. "Thank you kindly", you say and proceed to reinstall your Lady using Scavenge, as your opponent nods in acknowledgement.*
+*The year is 2015 and you're in the last round of swiss at a local store championship. It's turn 3 and you have your [Lady](https://netrunnerdb.com/en/card/29006) installed, but it's out of counters. Luckily, you have [Scavenge](https://netrunnerdb.com/en/card/03034) in your grip. You raise your hand and yell "JUDGE!", causing your opponent to levitate briefly. The judge arrives, and you ask: "Can you please confirm that I am allowed to play Scavenge here even though my heap is empty?" "Yes indeed, you are", says the judge after glancing at your grip. "Thank you kindly", you say and proceed to reinstall your Lady using Scavenge, as your opponent nods in acknowledgement.*
 
 What is going on?
 
@@ -26,12 +26,12 @@ Few rules concepts in Netrunner are as controversial as "no change in game state
 - [Origins](#origins)  
 - [Alternate universes](#alternate-universes)  
 - [Where we are](#where-we-are)  
-- [A challenger appears](#a-new-challenger-appears)  
+- [A challenger appears](#a-challenger-appears)  
 
 ## What is NCIGS?
 Netrunner has a rule that says you can't play a card or use an ability if it won't have an effect. This is colloquially known as the “no change in game state” rule (often ebbreviated "NCIGS"). At first glance, it might seem quite innocuous and intuitive. "You can't do a thing if it doesn't do anything." Makes sense to me! But this simple idea can lead to some surprising results.
 
-Let's take a look at the specifics. The "NCIGS rule" is not actually a single rule - it is mentioned in several places in the NISEI Comprehensive Rules - but the main codification of the concept is in section 1.2, "The Golden Rules":
+Let's take a look at the specifics. The "NCIGS rule" is not actually a single rule - it is mentioned in several places in the NISEI Comprehensive Rules (CR) - but the main codification of the concept is in section 1.2, "The Golden Rules":
 
 > **CR 1.2.5** A player can only take an action or use an ability if its effect has the potential to change the game state. This potential is assessed strictly by what the action or ability can be expected to accomplish, without regard to the consequences of paying any costs to initiate that action or ability and without regard to any other abilities that may meet their conditions in the process of initiating or resolving that action or ability.
 
@@ -39,7 +39,7 @@ That's a bit of a mouthful. Let's pick it apart.
 
 > A player can only take an action or use an ability if its effect has the potential to change the game state.
 
-This means that you can't play [Diesel](https://netrunnerdb.com/en/card/31027) if there aren't any cards left in your stack, or use the basic action to pay two credits and remove a tag if you have no tags.
+This means that you can't play [Diesel](https://netrunnerdb.com/en/card/01034) if there aren't any cards left in your stack, or use the basic action to pay two credits and remove a tag if you have no tags.
 
 > This potential is assessed strictly by what the action or ability can be expected to accomplish, without regard to the consequences of paying any costs to initiate that action or ability...
 
@@ -48,6 +48,10 @@ The second part of the rule clarifies that even though playing a card might caus
 > ...and without regard to any other abilities that may meet their conditions in the process of initiating or resolving that action or ability.
 
 And thirdly, you don't consider changes in game state that might result from other abilities triggering off of things happening during the resolution of the ability you want to use, or after it. (Like [Rejig](https://netrunnerdb.com/en/card/26029) being trashed after use, causing [Aniccam](https://netrunnerdb.com/en/card/26084) to draw a card for you.)
+
+[![Diesel](https://static.nrdbassets.com/v1/large/01034.jpg ""Draw 3 cards."")](https://netrunnerdb.com/en/card/01034) [![Aniccam](https://static.nrdbassets.com/v1/large/26084.jpg ""+1 [memory unit].
+The first time each turn an event is trashed (from any location), draw 1 card.
+Limit 1 console per player."")](https://netrunnerdb.com/en/card/26084)
 
 This general formulation of the concept is then further expanded on in a few other sections of the CR. They don't really add that much more detail, and serve mostly to specify exactly which actions and abilities are subject to NCIGS, but I'm including them here for completeness' sake:
 
@@ -90,9 +94,12 @@ This means that you can still play cards like Diesel even if you have only two c
 ## Costs
 This is where the fun starts. Certain cards have costs that are quite intricate. [Simulchip](https://netrunnerdb.com/en/card/26085) is the classic example. Its additional cost pulls double duty. It imposes a limitation on when the card can be used, but it can also function as an enabler for the ability itself, by trashing a program that you then immediately reinstall. How convenient!
 
-[![Simulchip](https://static.nrdbassets.com/v1/large/26085.jpg ""If no installed programs have been trashed this turn, you must trash 1 installed program as an additional cost to use this hardware. [trash]: Install 1 program from your heap, paying 3c less."")](https://netrunnerdb.com/en/card/26085)
-
 A typical use case is trashing a [Botulus](https://netrunnerdb.com/en/card/30004) and reinstalling it on another piece of ice. However! NCIGS demands that we look only at the results of resolving the effect of the ability when determining if the ability may be used or not. So let's look at a common game state: It's early in the game, you haven't actually trashed any cards yet; the heap is empty. You have a Botulus installed on a piece of ice in front of HQ, and a Simulchip. You run R&D, and when the corp rezzes their Ice Wall, you want to pop Simulchip to trash the Botulus and reinstall it on Ice Wall instead.
+
+[![Simulchip](https://static.nrdbassets.com/v1/large/26085.jpg ""If no installed programs have been trashed this turn, you must trash 1 installed program as an additional cost to use this hardware.
+\[trash]: Install 1 program from your heap, paying 3[c] less."")](https://netrunnerdb.com/en/card/26085) [![Botulus](https://static.nrdbassets.com/v1/large/30004.jpg ""Install only on a piece of ice.
+When you install this program and when your turn begins, place 1 virus counter on this program.
+Hosted virus counter: Break 1 subroutine on host ice."")](https://netrunnerdb.com/en/card/30004)
 
 But you can't.
 
@@ -102,27 +109,31 @@ Simulchip is very similar to the now long rotated card [Scavenge](https://netrun
 
 This was considered very tedious and countless players undoubtedly misplayed this interaction without ever being aware of it. Eventually, the card received errata that completely rewrote the ability to have the trashing be part of the effect instead of the cost, allowing the NCIGS rule to take it into account. This was one of very few times that FFG issued an errata to a card simply to improve the usability. In almost all other cases, errata was reserved for cards that had [omissions](https://netrunnerdb.com/en/card/04002), [misprints](https://netrunnerdb.com/en/card/12015) or (in extreme cases only) [were in dire need of rebalancing](https://netrunnerdb.com/en/card/01081).
 
-[![Scavenge](https://static.nrdbassets.com/v1/large/03034.jpg ""As an additional cost to play this card, trash an installed program. Install a program from your grip or heap, lowering the install cost of that program by the cost of the program trashed."")](https://netrunnerdb.com/en/card/03034)
+[![Scavenge](https://static.nrdbassets.com/v1/large/03034.jpg ""As an additional cost to play this card, trash an installed program.
+Install a program from your grip or heap, lowering the install cost of that program by the cost of the program trashed."")](https://netrunnerdb.com/en/card/03034) [![AstroScript Pilot Program](https://static.nrdbassets.com/v1/large/01081.jpg ""When you score this agenda, place 1 agenda counter on it.
+Hosted agenda counter: Place 1 advancement counter on an installed card you can advance.
+Limit 1 per deck."")](https://netrunnerdb.com/en/card/01081)
 
-Paying costs can also be the trigger for other abilities. The most well-known examples are [Geist](https://netrunnerdb.com/en/card/08063) and [Tech Trader](https://netrunnerdb.com/en/card/10023) (often played together, now both rotated). After a cost is paid there is a checkpoint, allowing conditional abilities to trigger in between the paying of the cost and the resolution of the ability's effect. Going back to Simulchip, let's imagine we want to use it's ability to install an Engolo, a pricy card at 5 credits. It's the only card in your heap, having been trashed earlier the same turn, so there is a valid target for Simulchip. You, however, are broke. Luckily, you have two Tech Traders installed that will give you 2 credits when you trash Simulchip, and the ability itself gives you a 3 credit discount, so that should cover it! Alas, no. NCIGS ignores game state changes triggered by the paying of costs, and determines that you are 2 credits short of being able to pay for Engolo, so you can't activate the ability.
+Paying costs can also be the trigger for other abilities. The most well-known examples are [Geist](https://netrunnerdb.com/en/card/08063) and [Tech Trader](https://netrunnerdb.com/en/card/10023) (often played together, now both rotated). After a cost is paid there is a checkpoint, allowing conditional abilities to trigger in between the paying of the cost and the resolution of the ability's effect. Going back to Simulchip, let's imagine we want to use its ability to install an Engolo, a pricy card at 5 credits. It's the only card in your heap, having been trashed earlier the same turn, so there is a valid target for Simulchip. You, however, are broke. Luckily, you have two Tech Traders installed that will give you 2 credits when you trash Simulchip, and the ability itself gives you a 3 credit discount, so that should cover it! Alas, no. NCIGS ignores game state changes triggered by the paying of costs, and determines that you are 2 credits short of being able to pay for Engolo, so you can't activate the ability.
 
-[![Geist](https://static.nrdbassets.com/v1/large/08063.jpg ""Whenever you use a [trash] ability, draw 1 card."")](https://netrunnerdb.com/en/card/08063) [![Tech Trader](https://static.nrdbassets.com/v1/large/10023.jpg ""Whenever you use a [trash] ability, gain 1 [credit]."")](https://netrunnerdb.com/en/card/10023)
+[![Geist](https://static.nrdbassets.com/v1/large/08063.jpg ""Whenever you use a [trash] ability, draw 1 card."")](https://netrunnerdb.com/en/card/08063) [![Tech Trader](https://static.nrdbassets.com/v1/large/10023.jpg ""Whenever you use a [trash] ability, gain 1[c]."")](https://netrunnerdb.com/en/card/10023)
 
 ## Subversion
 NCIGS is not universal. It applies specifically at the point of the timing sequence where you choose to take an action, activate a paid ability or trigger a conditional ability. Once an effect has started resolving, NCIGS doesn't care anymore. This means that you can sometimes walk right past it and perform exactly the kind of "nonsense" plays the rule is seemingly designed to prevent. For example: Cards with effects directing the user to do something a certain number of times or spend a quantity of something allow you to choose the number 0[^3]. Take [Mutually Assured Destruction](https://netrunnerdb.com/en/card/33064). Because of NCIGS, you are not allowed to play it unless you have at least 1 rezzed card in play. But if you do fulfill that condition, you may play it and then choose to trash 0 cards. This will give the runner 0 tags and is a perfectly legal play.
 
-[![Mutually Assured Destruction](https://static.nrdbassets.com/v1/large/33064.jpg ""As an additional cost to play this operation, spend [click] [click]. Trash any number of your rezzed cards. Give the Runner 1 tag for each card trashed this way."")](https://netrunnerdb.com/en/card/33064)
-
 There is another type of effect which frequently trips people up, and that is increasing the strength of icebreakers. It is, in fact, completely legal to increase the strength of an icebreaker at any point, using their native pump abilities or abilities from another card (like [Takobi](https://netrunnerdb.com/en/card/21026)), even if it does you no good at all. This includes outside a run, or even on the corp's turn. This has recently become very relevant due to the interactions of cards like [Mantle](https://netrunnerdb.com/en/card/26088) and [The Twinning](https://netrunnerdb.com/en/card/33010), where you might be interested only in the side effect and not the primary ability at all.
 
-An icebreaker typically retains any strength gains from abilities until the end of the current encounter[^4], but strength increases outside of runs are reverted almost immediately, in the next checkpoint[^5]. "In the next checkpoint" is not the same as "instantly" though, and such a strength increase is still considered a change in game state. This is not actually an exception to the NCIGS rule. It has to work like this, or it would be very hard indeed to use icebreakers! Consider how most icebreakers have separate abilities for breaking and increasing strength. The expected usage is to first use the strength-increasing ability, and then use the break ability once you have enough strength to interface. If increasing strength on its own was not considered a change in game state, icebreakers would be functionally unusable. (Or they would all have to be worded in ways similar to [Paperclip](https://netrunnerdb.com/en/card/11024) and [Black Orchestra](https://netrunnerdb.com/en/card/11042).)
+[![Mutually Assured Destruction](https://static.nrdbassets.com/v1/large/33064.jpg ""As an additional cost to play this operation, spend [click] [click]. Trash any number of your rezzed cards. Give the Runner 1 tag for each card trashed this way."")](https://netrunnerdb.com/en/card/33064) [![The Twinning](https://static.nrdbassets.com/v1/large/33010.jpg ""The first time each turn you spend credits from an installed card, place 1 power counter on this resource.
+Whenever you breach HQ or R&D, you may remove up to 2 hosted power counters to access that many additional cards."")](https://netrunnerdb.com/en/card/33010)
 
+An icebreaker typically retains any strength gains from abilities until the end of the current encounter[^4], but strength increases outside of runs are reverted almost immediately, in the next checkpoint[^5]. "In the next checkpoint" is not the same as "instantly" though, and such a strength increase is still considered a change in game state. This is not actually an exception to the NCIGS rule. It has to work like this, or it would be very hard indeed to use icebreakers! Consider how most icebreakers have separate abilities for breaking and increasing strength. The expected usage is to first use the strength-increasing ability, and then use the break ability once you have enough strength to interface. If increasing strength on its own was not considered a change in game state, icebreakers would be functionally unusable. (Or they would all have to be worded in ways similar to [Paperclip](https://netrunnerdb.com/en/card/11024) and [Black Orchestra](https://netrunnerdb.com/en/card/11042).)
 
 Is shuffling your deck a change in the game state? It is. You are allowed to trigger shuffle effects like that of [Spin Doctor](https://netrunnerdb.com/en/card/30053) even if you don't actually choose any cards from archives. Causing R&D to be shuffled is sufficient. This makes sense when you consider that cards like [Daily Business Show](https://netrunnerdb.com/en/card/06086) (or the runner accessing the top card) may have caused cards in R&D to have known positions, and shuffling will obviously change that state. Search effects like [Mutual Favor](https://netrunnerdb.com/en/card/30011) operate under the same logic (remembering that you can even voluntarily fail to find a card when searching if all you want to do is shuffle your deck, but only if searching for cards with specified criteria[^6], meaning [Project Atlas](https://netrunnerdb.com/en/card/02018) does not give you this opportunity).
 
 A final example: [Overclock](https://netrunnerdb.com/en/card/30029) is a simple card. It enters play, you put some money on it and then make a run. During the run you can spend the credits. There are abilities that may prevent or forbid you from making runs though, like [Peace in Our Time](https://netrunnerdb.com/en/card/11109). Can you still play Overclock if such an ability is in effect? [Yes you can](https://twitter.com/NISEI_Rules/status/1561051928754237440). Placing credits on a card in play is a change in game state, even though you can logically conclude that nothing productive will come of it.
 
-[![Overclock](https://static.nrdbassets.com/v1/large/30029.jpg ""Place 5 [credit] on this event, then run any server. You can spend hosted credits during that run."")](https://netrunnerdb.com/en/card/30029)
+[![Overclock](https://static.nrdbassets.com/v1/large/30029.jpg ""Place 5[c] on this event, then run any server. You can spend hosted credits during that run."")](https://netrunnerdb.com/en/card/30029) [![Peace in Our Time](https://static.nrdbassets.com/v1/large/11109.jpg ""Play only as your first [click] and only if the Corp scored no agendas during their last turn.
+Gain 10[c]. The Corp gains 5[c]. You cannot make any runs this turn."")](https://netrunnerdb.com/en/card/11109)
 
 Clearly, NCIGS can't completely protect us from using cards and abilities for no effect. It can both prevent seemingly legitimate use cases (like Simulchip switcheroos) and allow completely nonsensical plays (like playing Overclock after Peace in Our Time). Whatever is it for? Find out after this short break!
 
@@ -154,18 +165,20 @@ The fully evolved NCIGS rule was then added to the game a year later, in [FAQ 2.
 > **Triggering Actions and Abilities**  
 > A player can only trigger an action or ability if its effect has the potential to change the game state. This potential is assessed without taking into account the consequences of paying play, install, or rez costs or triggering any further abilities.
 
-This is the form it would retain for the rest of FFG:s tenure, until being replaced by NISEI:s very similar wording in [version 1.0 of the Comprehensive Rules](https://nisei.net/wp-content/uploads/2021/08/NISEI-Comprehensive-Rules-v1.0-2018-10-29.pdf).
+This is the form it would retain for the rest of FFG's tenure, until being replaced by NISEI's very similar wording in [version 1.0 of the Comprehensive Rules](https://nisei.net/wp-content/uploads/2021/08/NISEI-Comprehensive-Rules-v1.0-2018-10-29.pdf).
 
 
 FAQ 2.2 came out a few months after Geist was printed (but before Tech Trader), and a popular explanation is that the main reason for the expanded ruling was to prevent Geist from unduly exploiting cheap trash effects like [Fall Guy](https://netrunnerdb.com/en/card/04106) and [Shiv](https://netrunnerdb.com/en/card/08066).
 
 Another prominent card in the same pack as Geist ([The Underway](https://netrunnerdb.com/en/set/uw/images), SanSan Cycle) was [Street Peddler](https://netrunnerdb.com/en/card/08062), for which the most common rules question always was: "If Street Peddler has only events hosted on it, can I still trash it to release them into the heap or are they stuck there forever?" By now you know enough to answer that question yourself.[^8]
 
-[![Street Peddler](https://static.nrdbassets.com/v1/large/08062.jpg ""When you install Street Peddler, host the top 3 cards of your stack facedown on Street Peddler (you may look at these cards at any time). [trash]: Install 1 card hosted on Street Peddler, lowering its install cost by 1."")](https://netrunnerdb.com/en/card/08062)
+[![Fall Guy](https://static.nrdbassets.com/v1/large/04106.jpg ""[trash]: Prevent another installed resource from being trashed.
+\[trash]: Gain 2[c]."")](https://netrunnerdb.com/en/card/04106) [![Street Peddler](https://static.nrdbassets.com/v1/large/08062.jpg ""When you install Street Peddler, host the top 3 cards of your stack facedown on Street Peddler (you may look at these cards at any time).
+\[trash]: Install 1 card hosted on Street Peddler, lowering its install cost by 1."")](https://netrunnerdb.com/en/card/08062)
 
 Why didn't the designers want the player to be able to do things like this? There are two main lines of reasoning that can lead to that conclusion:
 1. It's not good for balance. Geist can exploit cheap trash effects and draw way too many cards way too easily. (With the later addition of Tech Trader, which caused you to also make money from trashing your cards, this argument got even more popular.)
-2. It's philosophically wrong. We want people to play cards because of what the effect of the card is, not to exploit side effects in a way that make the card effect itself secondary. That's just a design goal we have. (Consider: [Cyberdex Sandbox](https://netrunnerdb.com/en/card/26128) recently got [banned](https://nisei.net/blog/ban2208/).)
+2. It's philosophically wrong. We want people to play cards because of what the effect of the card is, not to exploit side effects in a way that makes the card effect itself secondary. That's just a design goal we have. (Consider: [Cyberdex Sandbox](https://netrunnerdb.com/en/card/26128) recently got [banned](https://nisei.net/blog/ban2208/).)
 
 We don't have an official reason for the rule's existence, but the fact that the full rule was introduced only after Geist and Street Peddler were released could be an argument for 1). On the other hand, Geist wasn't a particularly strong ID until much later, after Tech Trader and a few other cards lifted him from obscurity. There were also the early incarnations of the rule which seem to indicate a similar intention even if they were not as precise and wide in scope, which could imply that 2) is a larger factor.
 
@@ -201,14 +214,44 @@ The new Midnight Sun ID [Ob Superheavy Logistics](https://netrunnerdb.com/en/car
 
 Or they could call a judge to confirm.
 
-[![Ob Superheavey Logistics](https://static.nrdbassets.com/v1/large/33057.jpg ""Whenever you trash a rezzed card, except during installation, you may search R&D for 1 card with a printed rez cost exactly 1credit less than the trashed card's printed rez cost. Install and rez the card you found, ignoring credit costs. Use this ability only once per turn."")](https://netrunnerdb.com/en/card/26085)
+[![Ob Superheavey Logistics](https://static.nrdbassets.com/v1/large/33057.jpg ""Whenever you trash a rezzed card, except during installation, you may search R&D for 1 card with a printed rez cost exactly 1[c] less than the trashed card's printed rez cost. Install and rez the card you found, ignoring credit costs. Use this ability only once per turn."")](https://netrunnerdb.com/en/card/26085) [![Reconstruction Contract](https://static.nrdbassets.com/v1/large/21020.jpg ""Whenever the Runner suffers any amount of meat damage, you may place 1 advancement token on Reconstruction Contract.
+\[trash]: Move any number of advancement tokens from Reconstruction Contract to a card that can be advanced."")](https://netrunnerdb.com/en/card/21020)
 
 
-### Appendix: What is the "game state" anyway?
-The phrase "game state" is mentioned 33 times in the NISEI Comprehensive Rules, but none of those instances is a definition of the term. It is a concept which we have to accept a priori, and its meaning is supposedly obvious. The intuitive definition would be something like "the game state is the collection of all objects, abilities and information about current and past events and states affecting those objects and abilities relevant to the game of Netrunner currently being played". Are currently unused tokens in the supply part of the game state? The CR does define the concept of "the bank" which is a public zone where all currenly unusued tokens reside. So maybe? Does that mean that adding new tokens to the bank from outside the game is a change in game state?
+### Appendix A: What is the "game state" anyway?
+The phrase "game state" is mentioned 33 times in the NISEI Comprehensive Rules, but none of those instances is a definition of the term. It is a concept which we have to accept a priori, and its meaning is supposedly obvious. An intuitive definition could perhaps be something like: "the game state is the collection of all objects, abilities and information about current and past events and states affecting those objects and abilities relevant to the game of Netrunner currently being played".
+
+Are currently unused tokens in the supply part of the game state? The CR does define the concept of "the bank" which is a public zone where all currently unusued tokens reside. So maybe? Does that mean that adding new tokens to the bank from outside the game is a change in game state?
 
 Cards that have been "removed from the game" are in a special zone known as the "removed-from-game zone". This is different from being "outside the game" which means not being in any zone. (Cards like [Rebirth](https://netrunnerdb.com/en/card/10083) and [DJ Fenris](https://netrunnerdb.com/en/card/22025) interact with cards "outside the game".) Is "not being in any zone" the same as not being part of the game state? No one knows.
 
+### Appendix B: Not created equal
+Another interesting quirk was pointed out to me after the rest of the article was already written, that I still wanted to share. The quirk is this: **Events and operations are treated differently from other cards and abilities when evaluating NCIGS.**
+
+For most basic actions, you simply look at the right side of the ability and see if it can be resolved, disregarding the cost, as usual. The basic actions are all normal paid abilities, defined in the CR like this:
+
+> **CR 5.2.7 Corp Actions**  
+> a. The following BASIC ACTIONS are always available to the Corp during their action phase, in addition to any actions provided by card abilities.  
+> b. “[click]: Gain 1[c].”  
+> c. “[click]: Draw 1 card.”  
+> d. “[click]: Install 1 agenda, asset, upgrade, or piece of ice from HQ.” See section 8.5.  
+> e. “[click]: Play 1 operation from HQ.” See section 8.6.  
+> f. “[click], 1[c]: Advance 1 installed card.” See section 1.18.  
+> g. “[click], 2[c]: Trash 1 resource. Take this action only if the Runner is tagged.” See section 10.5.  
+> h. “[click][click][click]: Purge virus counters.” See section 10.1.2.
+
+> **CR 5.2.8 Runner Actions**  
+> a. The following BASIC ACTIONS are always available to the Runner during their action phase, in addition to any actions provided by card abilities.  
+> b. “[click]: Gain 1[c].”  
+> c. “[click]: Draw 1 card.”  
+> d. “[click]: Install 1 program, resource, or piece of hardware from the grip.” See section 8.5.  
+> e. “[click]: Play 1 event from the grip.” See section 8.6.  
+> f. “[click]: Run any server.” See section 6.  
+> g. “[click], 2[c]: Remove 1 tag.” See section 10.5.
+
+Can you click for a card? Yes, if there are cards to draw. Can you install a card? Yes, if you have an installable card in hand and can pay its install cost. Can you play an event or operation? Yes, if you have one in hand *and the play ability of that card would itself cause a change in game state*. For events and operations only, NCIGS evaluation goes one level deeper than in all other circumstances. If this wasn't the case, everything we've said about not being able to play Diesel with no cards in the stack - and similar situations - goes out the window.
+
+While this nuance isn't covered by the rules, neither is the exact definition of what constitutes a change in game state to begin with (see appendix A), so while it might seem inconsistent, there is room in the ruling praxis for this contingency.
 
 ### References
 This article uses the [NISEI Comprehensive Rules Document version 1.6](https://nisei.net/wp-content/uploads/2022/07/NISEI-Comprehensive-Rules-v1.6-Clean.pdf), which was released on 22 July 2022.
@@ -223,7 +266,9 @@ This article uses the [NISEI Comprehensive Rules Document version 1.6](https://n
 3.9.5d (p.39)
 
 *Chapter 5: Turns*  
-5.2.4 (p.51)
+5.2.4 (p.51)  
+5.2.7 (p.53)  
+5.2.8 (p.53)
 
 *Chapter 8: Card Manipulation*  
 8.7.2 (p.83)
@@ -241,7 +286,7 @@ This article uses the [NISEI Comprehensive Rules Document version 1.6](https://n
 **Cards mentioned:**  
 [Lady](https://netrunnerdb.com/en/card/29006)  
 [Scavenge](https://netrunnerdb.com/en/card/03034)  
-[Diesel](https://netrunnerdb.com/en/card/31027)  
+[Diesel](https://netrunnerdb.com/en/card/01034)  
 [Rejig](https://netrunnerdb.com/en/card/26029)  
 [Aniccam](https://netrunnerdb.com/en/card/26084)  
 [SMC](https://netrunnerdb.com/en/card/03046)  
@@ -311,13 +356,24 @@ This article uses the [NISEI Comprehensive Rules Document version 1.6](https://n
 [Magical Netrunner](https://www.reddit.com/r/Netrunner/comments/4azn5d/rules_exercise_pretend_the_no_change_in_game/), Reddit thread
 
 ### Acknowledgements
-Vigeous, eli, 114141, JayPumpkin, Cephalopod Wizard  - proofreading/factchecking
-Ensu, nicemoreoften - brainstorming  
+*Beta reading*  
+Vigeous
+
+*Proofreading & factchecking*  
+114141 (Anna)  
+Cephalopod Wizard  
+eli  
+JayPumpkin  
+osclate
+
+*Also thanks to*  
+Ensu  
+nicemoreoften
 
 ### Footnotes
 [^1]: A "static condition" continuously checks for a certain state, as opposed to a "trigger condition", which is listening for a particular event to occur.
 
-[^2]: Maybe you're running [Bloo Moose](https://netrunnerdb.com/en/card/12089) and have already removed all the cards in your heap from the game. Getting one more card in there in order to get 2c at the beginning of your next turn is absolutely critical to your game plan and clicking for credits will just not be enough.
+[^2]: Maybe you're running [Bloo Moose](https://netrunnerdb.com/en/card/12089) and have already removed all the cards in your heap from the game. Getting one more card in there in order to get 2 credits at the beginning of your next turn is absolutely critical to your game plan and clicking for credits will just not be enough.
 
 [^3]: ***CR 9.12.2b*** *Some abilities calculate a quantity using phrases like “for each”, “for every”, or “plus”. When a quantity is calculated this way for any of the purposes listed in rule 9.12.2c[^10], the resulting effect is aggregated to the value that was calculated. Only a single instance of that effect takes place. If the calculated value is less than or equal to 0, the effect does not take place at all.*
 

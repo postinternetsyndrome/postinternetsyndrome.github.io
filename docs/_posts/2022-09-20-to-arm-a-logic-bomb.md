@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "To arm a logic bomb"
-date:   2022-09-18 11:00:00 +0200
+date:   2022-09-20 11:00:00 +0200
 categories: meta
 tags: [cr-1.6, personal]
 image:
