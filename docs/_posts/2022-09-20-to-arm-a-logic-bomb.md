@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "To arm a logic bomb"
-date:   2022-09-01 11:00:00 +0200
+date:   2022-09-20 11:00:00 +0200
 categories: meta
 tags: [cr-1.6, personal]
 image:
@@ -11,7 +11,7 @@ image:
   creditlink: https://www.scottuminga.com/post/648948239843901440/the-logic-bomb-alt-art-alt-art-for-logic-bomb
 ---
 
-We are pattern-seeking animals.
+*We are pattern-seeking animals.*
 
 Welcome to this new blog all about the rules of Netrunner! Sounds exciting? Yeah I know, why would anyone be excited about riveting accounts like this:
 

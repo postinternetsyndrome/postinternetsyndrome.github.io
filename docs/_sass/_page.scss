@@ -288,9 +288,10 @@ header .entry-meta {
 			margin: 50px auto 30px auto;
 			padding: 50px 80px;
 
-			> p:first-child {
-				@include font-size(20);
-			}
+			// NOTE: This gave different formatting to the first paragraph of each post. I removed it for aesthetic reasons.
+			// > p:first-child {
+			// 	@include font-size(20);
+			// }
 		}
 	}
 
