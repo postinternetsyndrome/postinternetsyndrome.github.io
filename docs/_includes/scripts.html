@@ -16,4 +16,11 @@
 </script>
 {% endif %}
 
+<!-- TelemetryDeck -->
+<script src="https://unpkg.com/@telemetrydeck/sdk/dist/telemetrydeck.min.js" defer></script>
+<script>
+  window.td = window.td || [];
+  td.push(['app', '7B0B540F-C75D-4516-A1AE-C5FEACEE18CE'], ['user', 'anonymous'], ['signal']);
+</script>
+
 {% if page.comments != false %}{% include disqus_comments.html %}{% endif %}
