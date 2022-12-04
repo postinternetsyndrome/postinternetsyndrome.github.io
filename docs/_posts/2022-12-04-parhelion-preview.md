@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Silent Ice: Parhelion Preview"
-date:   2022-12-04 12:00:00
+date:   2022-12-04 11:00:00
 categories: news
 tags: [news, spoilers]
 image:
