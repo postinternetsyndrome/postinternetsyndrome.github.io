@@ -23,6 +23,8 @@ In this short break from our regularly scheduled programming (work on the next m
 - [Nanisivik Grid](#nanisivik-grid)
 - [Interview](#interview)  
 
+> **Update 2022-12-04:** Endless Hunger was erroneously referred to as an AI breaker.
+
 ## The cards
 I won't keep you hanging. Here are the two new cards; an Anarch program and a Jinteki upgrade. Both are concerned with ice, but in very different ways.
 
@@ -69,7 +71,8 @@ To get an overview of what the potential for Hush could be, here are some of the
 [![Border Control](https://static.nrdbassets.com/v1/large/23054.jpg)](https://netrunnerdb.com/en/card/23054)
 [![Akhet](https://static.nrdbassets.com/v1/large/26123.jpg)](https://netrunnerdb.com/en/card/26123)
 
-- Not all AI hate is on encounter like IP Block. Hush hits a wider range of AI hate cards like [Chiyashi](https://netrunnerdb.com/en/card/11112) and [Wraparound](https://netrunnerdb.com/en/card/04096), both of which pose problems for a deck which relies heavily on AI breakers (which is admittedly few in the current [Endurance](https://netrunnerdb.com/en/card/33025)-dominated meta). Is this a final chance for [Endless Hunger](https://netrunnerdb.com/en/card/09033) to shine before rotating next year?[^2]
+- Not all AI hate is on encounter like IP Block. Hush hits a wider range of AI hate cards like [Chiyashi](https://netrunnerdb.com/en/card/11112) and [Wraparound](https://netrunnerdb.com/en/card/04096), both of which pose problems for a deck which relies heavily on AI breakers (which is admittedly few in the current [Endurance](https://netrunnerdb.com/en/card/33025)-dominated meta).
+- Is this a final chance for [Endless Hunger](https://netrunnerdb.com/en/card/09033) to shine before rotating next year?[^2]
 - Cards like [Envelopment](https://netrunnerdb.com/en/card/33060), [Konjin](https://netrunnerdb.com/en/card/26109) and [Blockchain](https://netrunnerdb.com/en/card/22053) are almost completely turned off by Hush.
 - We can finally trash [Lotus Field](https://netrunnerdb.com/en/card/06003) with [Parasite](https://netrunnerdb.com/en/card/01012). Sweet revenge.
 - On the flip side, unwisely installing Hush on biorids (or [F2P](https://netrunnerdb.com/en/card/26115)) will bereave the runner of the option to break them with clicks. This is an unlikely occurrence since no bioroids have other non-subroutine abilities that you would want to remove, but a misjudged install on an unrezzed card could spell disaster in some niche scenarios.
@@ -84,7 +87,7 @@ There's also [Engram Flush](https://netrunnerdb.com/en/card/26108) and [Gold Far
 Finally, there's of course [Magnet](https://netrunnerdb.com/en/card/10103) which... Yeah actually I have no idea how that works. Check out the [interview](#interview) instead.
 
 ## Nanisivik Grid
-Nanisivik is an abandoned mining town in Canada, currently being used as a naval refuelling station. You can [see](/images/parhelion-preview/nanisivik-1.jpg) [the](/images/parhelion-preview/nanisivik-2.jpg) [resemblence](/images/parhelion-preview/nanisivik-3.jpg) to the card, which is illustrated by [Emilio Rogriguez](https://www.artstation.com/emkun), one of Netrunner's most prolific illustrators with [67 cards](https://netrunnerdb.com/find/?q=i%3A%22Emilio%20Rodriguez%22&view=images) to his name prior to Parhelion. (Wow!) What Jinteki are up to out there is anybody's guess.
+Nanisivik is an abandoned mining town in Canada, currently being used as a naval refuelling station. You can [see](/images/parhelion-preview/nanisivik-1.jpg) [the](/images/parhelion-preview/nanisivik-2.jpg) [resemblance](/images/parhelion-preview/nanisivik-3.jpg) to the card, which is illustrated by [Emilio Rogriguez](https://www.artstation.com/emkun), one of Netrunner's most prolific illustrators with [67 cards](https://netrunnerdb.com/find/?q=i%3A%22Emilio%20Rodriguez%22&view=images) to his name prior to Parhelion. (Wow!) What Jinteki are up to out there is anybody's guess.
 
 With this card, you can engage in all kinds of mischief which wasn't previously as easily available. Like [Marcus Batty](https://netrunnerdb.com/en/card/08074) before it, Nanisivik Grid interferes with the fundamental assumption that the corp can't proactively fire subroutines. It's conditional, of course, and there is counterplay; it dies to [Pinhole Threading](https://netrunnerdb.com/en/card/33013), or you can run archives to flip all the facedowns and reduce your vulnerability to this upgrade. But will it always be practical to do that? Probably not.
 
