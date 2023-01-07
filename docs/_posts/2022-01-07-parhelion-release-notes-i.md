@@ -502,10 +502,6 @@ Cephalopod Wizard, NSG rules team, for answering slightly fewer - but equally de
 
 *Proofreading & factchecking*  
 Vigeous
-[more to come]
-
-*Also thanks to*  
-[no one in particular this time?]
 
 ### Footnotes
 [^1]: Probably not.
