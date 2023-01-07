@@ -25,6 +25,9 @@ Changes to examples are not covered by this article. Several of the new rules co
 - [Interesting changes](#interesting-changes)
 - [Minor changes](#minor-changes)
 
+> **Update 2022-12-07** 
+- Clarified the ZATO City Grid server reference explanation.
+
 ## What you need to know
 To make things simpler for those who just want to know how the new rules affect their everyday lives, I've collected the major takeaways here at the top.
 
@@ -33,7 +36,7 @@ To make things simpler for those who just want to know how the new rules affect 
 - [1.13.11](#11311---expanded) - Moving a card between zones always results in all hosted objects being trashed. (Including, possibly, swapping agendas between score areas. There's currently a conflict between two rules in that particular situation. Judges, be aware!)
 - [2.16.7h](#2167c-h-i---subtypes-added--removed) - The "bomb" subtype has been completely removed and subsumed by the "weapon" subtype.
 - [4.6.6i](#466g-i-j---expanded) - The meaning of "this server" on ice subroutines is *archives* when being fired by [Nanisivik Grid](https://netrunnerdb.com/en/card/33111).
-- [4.6.6j](#466g-i-j---expanded) - The meaning of "this server" on ice subroutines is *the server being run* when being fired by [ZATO City Grid](https://netrunnerdb.com/en/card/33127).
+- [4.6.6j](#466g-i-j---expanded) - The meaning of "this server" on ice subroutines is *the server the ice was trashed from* when being fired by [ZATO City Grid](https://netrunnerdb.com/en/card/33127).
   - No other effects use this time travel logic - abilities on ice that count hosted counters or installed cards still do these checks after the ice has been trashed by ZATO.
 - [8.5.14](#8514---added) - The meaning of positional references like "directly inward" on ice subroutines is *undefined* when being fired by Nanisivik Grid or ZATO City Grid, and effects that rely on them fail to resolve.
 - [4.8.7](#487---added) - It is finally, 100%, definitely, unambiguously clear that you do not need to tell the runner which card you put on the bottom of R&D with [Daily Business Show](https://netrunnerdb.com/en/card/06086). (But the reverse is still true of [Blueberry Diesel](https://netrunnerdb.com/en/card/26012) and [The Class Act](https://netrunnerdb.com/en/card/26018).)
@@ -64,9 +67,9 @@ section 3.6.5.
 
 This is an important addition that ensures that the new cards ZATO City Grid and Nanisivik Grid function as intended. Both of them have the ability to fire subroutines on pieces of ice, and in both cases the ice cards are in archives when the ability resolves.
 
-The implication of this rule is that the location of the ice card is the determinator for location references like "this server" or "another server". For Nanisivik, this means that all such references will be to archives. For ZATO though, the second sentence of this rule results in the game remembering where the ice was when it was trashed as the cost to use the ZATO ability, meaning "this server" is the server currently being run.
+The implication of this rule is that the location of the ice card is the determinator for location references like "this server" or "another server". For Nanisivik, this means that all such references will be to archives. For ZATO though, the second sentence of this rule results in the game remembering where the ice was when it was trashed as the cost to use the ZATO ability. This is typically the server being run, but there are exotic scenarios with cards like [Konjin](https://netrunnerdb.com/en/card/26109) that cause you to encounter ice on other servers, in which case a ZATO installed on that other server may come into play.
 
-Note that this "memory effect" isn't a universal paradigm, it's only used when resolving server references. If ZATO fires a sub on [Surveyor](https://netrunnerdb.com/en/card/21118), X does not default to 0, but is resolved by counting the ice protecting the server at the time the ability resolves - that is without counting Surveryor, which is not installed in front of that server anymore. Also, if used with an advanceable ice like [Colossus](https://netrunnerdb.com/en/card/13048), the ability does not "remember" any advancement counters that were removed when the ice was trashed.
+Note that this "memory effect" isn't a general principle, it's only used specifically when resolving server references. If ZATO fires a sub on [Surveyor](https://netrunnerdb.com/en/card/21118) for example, X is resolved by counting the ice protecting the server at the time the ability resolves - that is without counting Surveyor, which is not installed in front of that server anymore. Also, if used with an advanceable ice like [Colossus](https://netrunnerdb.com/en/card/13048), the ability does not "remember" any advancement counters that were removed when the ice was trashed.
 
 This rule also affects some older cards like [Warroid Tracker](https://netrunnerdb.com/en/card/12068) whose abilities trigger from themselves being trashed, and where the exact meaning of "this server" was previously somewhat nebulous (since the card is technically in archives when the ability resolves). That is no longer the case: "This server" in the text of Warroid Tracker now unambiguously refers to the server where it was installed before being trashed, as one would expect.
 
@@ -459,8 +462,7 @@ For convenience of linking, this article also uses hosted versions of [CR 1.6](h
 [Persephone](https://netrunnerdb.com/en/card/12042)  
 [Chief Slee](https://netrunnerdb.com/en/card/11077)  
 [Media Blitz](https://netrunnerdb.com/en/card/09021)  
-[ZATO City Grid](https://netrunnerdb.com/en/card/33127)  
-[Nanisivik Grid](https://netrunnerdb.com/en/card/33111)  
+[Konjin](https://netrunnerdb.com/en/card/26109)  
 [Surveyor](https://netrunnerdb.com/en/card/21118)  
 [Colossus](https://netrunnerdb.com/en/card/13048)  
 [Warroid Tracker](https://netrunnerdb.com/en/card/12068)  
