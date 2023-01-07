@@ -25,7 +25,7 @@ Changes to examples are not covered by this article. Several of the new rules co
 - [Interesting changes](#interesting-changes)
 - [Minor changes](#minor-changes)
 
-> **Update 2022-12-07** 
+> **Update 2023-01-07** 
 - Clarified the ZATO City Grid server reference explanation.
 
 ## What you need to know
