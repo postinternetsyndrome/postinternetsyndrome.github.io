@@ -3,7 +3,7 @@ layout: post
 title:  "Cost and effect"
 date:   2022-09-20 12:00:00
 categories: essays
-tags: [cr-1.6, ncigs]
+tags: [cr, cr-1.6, ncigs]
 image:
   path: /images/overclock (watermarked).png
   feature: overclock (watermarked).png

@@ -77,6 +77,16 @@ a.dark-link {
 	}
 }
 
+.image-preview {
+	display: none;
+}
+
+.link-with-preview:hover {
+	display: inline-block;
+	position: absolute;
+}
+
+
 .link-arrow {
 	font-weight: 100;
 	text-decoration: underline;

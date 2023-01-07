@@ -2,25 +2,17 @@
 <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="{{ site.url }}/assets/js/scripts.min.js"></script>
 
-{% if site.google_analytics %}
-<!-- Asynchronous Google Analytics snippet -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', '{{ site.google_analytics }}', 'auto');  
-  ga('require', 'linkid', 'linkid.js');
-  ga('send', 'pageview');
-</script>
-{% endif %}
-
 <!-- TelemetryDeck -->
+<!-- TODO: add nifty setting that prevents this from being active in the dev env. -->
 <script src="https://unpkg.com/@telemetrydeck/sdk/dist/telemetrydeck.min.js" defer></script>
 <script>
+  // Create an anonymous identifier for user counting purposes. Telemetrydeck itself further
+  // hashes and anonymizes the values sent to it, so it is not possible to track the data back
+  // to specific users.
+  const userId = localStorage.getItem("anonymousUserId");
+  if(!userId) localStorage.setItem("anonymousUserId", crypto.randomUUID());
   window.td = window.td || [];
-  td.push(['app', '7B0B540F-C75D-4516-A1AE-C5FEACEE18CE'], ['user', 'anonymous'], ['signal']);
+  td.push(['app', '7B0B540F-C75D-4516-A1AE-C5FEACEE18CE'], ['user', userId], ['signal']);
 </script>
 
 {% if page.comments != false %}{% include disqus_comments.html %}{% endif %}

@@ -38,14 +38,14 @@ defaults:
       feature: gold-banner-cropped.jpg
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
 
+# TODO: the time zone does not seem to work as expected. additionally, the build just skips future articles, it doesn't queue them up, so I'll have to add some kind of scheduler if I want posts to appear automatically on the chosen date and time.
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/Stockholm
-future:      false  # publish future dated posts --  true, false (default) 
+future:      true  # publish future dated posts --  true, false (default) 
 highlighter: rouge
 markdown:    kramdown
 plugins:

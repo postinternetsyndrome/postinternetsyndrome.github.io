@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Silent Ice: Parhelion Preview"
-date:   2022-12-04 11:00:00
+date:   2022-12-04 12:00:00
 categories: news
 tags: [news, spoilers]
 image:
@@ -261,7 +261,7 @@ Personally, I can't stop thinking about the whales from Riven. There was already
 Thank you so much for your time Ruben Pieters and the NSG rules team! You've been very generous with your time. Parhelion is expected to be released digitally on December 9 and the print version will be available on December 12. I'll be there, of course, ready to ask all the deep questions and study the new CR obsessively so you don't have to.
 
 ### References
-This article uses the [NISEI Comprehensive Rules Document version 1.6](https://nisei.net/wp-content/uploads/2022/07/NISEI-Comprehensive-Rules-v1.6-Clean.pdf), which was released on 22 July 2022. Note that the upcoming CR 1.7 might recontextualize or invalidate some of the theorycrafting in this article.
+This article uses the [NSG Comprehensive Rules Document version 1.6](https://nullsignal.games/wp-content/uploads/2022/07/NISEI-Comprehensive-Rules-v1.6-Clean.pdf), which was released on 22 July 2022. Note that the upcoming CR 1.7 might recontextualize or invalidate some of the theorycrafting in this article.
 
 **Rules mentioned:**  
 *Chapter 1: Game Concepts*  
