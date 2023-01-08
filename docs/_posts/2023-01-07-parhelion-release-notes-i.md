@@ -28,6 +28,9 @@ Changes to examples are not covered by this article. Several of the new rules co
 > **Update 2023-01-07** 
 - Clarified the ZATO City Grid server reference explanation.
 
+> **Update 2023-01-08** 
+- Replaced misleading Surveyor example.
+
 ## What you need to know
 To make things simpler for those who just want to know how the new rules affect their everyday lives, I've collected the major takeaways here at the top.
 
@@ -69,7 +72,7 @@ This is an important addition that ensures that the new cards ZATO City Grid and
 
 The implication of this rule is that the location of the ice card is the determinator for location references like "this server" or "another server". For Nanisivik, this means that all such references will be to archives. For ZATO though, the second sentence of this rule results in the game remembering where the ice was when it was trashed as the cost to use the ZATO ability. This is typically the server being run, but there are exotic scenarios with cards like [Konjin](https://netrunnerdb.com/en/card/26109) that cause you to encounter ice on other servers, in which case a ZATO installed on that other server may come into play.
 
-Note that this "memory effect" isn't a general principle, it's only used specifically when resolving server references. If ZATO fires a sub on [Surveyor](https://netrunnerdb.com/en/card/21118) for example, X is resolved by counting the ice protecting the server at the time the ability resolves - that is without counting Surveyor, which is not installed in front of that server anymore. Also, if used with an advanceable ice like [Colossus](https://netrunnerdb.com/en/card/13048), the ability does not "remember" any advancement counters that were removed when the ice was trashed.
+Note that this "memory effect" isn't a general principle, it's only used specifically when resolving server references. If ZATO fires the first sub on [Border Control](https://netrunnerdb.com/en/card/23054) for example, the number of credits gained is calculated by counting the ice in front of the server Border Control was trashed from, but Border Control itself is not counted because it is not installed in front of that server anymore. Similarly, if used with an advanceable ice like [Colossus](https://netrunnerdb.com/en/card/13048), the ability does not "remember" any advancement counters that were removed when the ice was trashed.
 
 This rule also affects some older cards like [Warroid Tracker](https://netrunnerdb.com/en/card/12068) whose abilities trigger from themselves being trashed, and where the exact meaning of "this server" was previously somewhat nebulous (since the card is technically in archives when the ability resolves). That is no longer the case: "This server" in the text of Warroid Tracker now unambiguously refers to the server where it was installed before being trashed, as one would expect.
 
@@ -463,7 +466,7 @@ For convenience of linking, this article also uses hosted versions of [CR 1.6](h
 [Chief Slee](https://netrunnerdb.com/en/card/11077)  
 [Media Blitz](https://netrunnerdb.com/en/card/09021)  
 [Konjin](https://netrunnerdb.com/en/card/26109)  
-[Surveyor](https://netrunnerdb.com/en/card/21118)  
+[Border Control](https://netrunnerdb.com/en/card/23054)  
 [Colossus](https://netrunnerdb.com/en/card/13048)  
 [Warroid Tracker](https://netrunnerdb.com/en/card/12068)  
 [Daily Business Show](https://netrunnerdb.com/en/card/06086)  
