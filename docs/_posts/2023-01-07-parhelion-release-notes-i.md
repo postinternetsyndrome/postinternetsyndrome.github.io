@@ -297,7 +297,7 @@ In this rare case of reducing the scope of an existing rule, the previous - rath
 > **[CR 22.12](/cr/22.12-Annotated.html#pf76)**  
 > **e. Some values are defined with a variable “X”. If the ability defining X is inactive or if the value of X cannot be evaluated, treat X as equal to 0.**
 
-It was already established (by rule 1.16.2c,d) that install costs of "X" are treated as 0 when referenced by other abilities outside of installation. This new general rule expands this logic to apply to all situations where a value is defined as "X" (such as the strength of Surveyor). If X can't be determined for any reason, it's 0. Most people probably already assumed this to be the case, but it wasn't explicitly codified in the CR until now. It has become newly relevant with the introduciton of Nanisivik Grid and ZATO City Grid which both cause ice subroutines to be resolved when the ice is not installed, which causes several cards with "X" values to have new behaviors.
+It was already established (by rule 1.16.2c,d) that install costs of "X" are treated as 0 when referenced by other abilities outside of installation. This new general rule expands this logic to apply to all situations where a value is defined as "X" (such as the strength of [Surveyor](https://netrunnerdb.com/en/card/21118)). If X can't be determined for any reason, it's 0. Most people probably already assumed this to be the case, but it wasn't explicitly codified in the CR until now. It has become newly relevant with the introduciton of Nanisivik Grid and ZATO City Grid which both cause ice subroutines to be resolved when the ice is not installed, which causes several cards with "X" values to have new behaviors.
 
 ## Minor changes
 #### 1.8.4a, b - REVISED
@@ -488,6 +488,7 @@ For convenience of linking, this article also uses hosted versions of [CR 1.6](h
 [Wetwork Refit](https://netrunnerdb.com/en/card/11071)  
 [Security Testing](https://netrunnerdb.com/en/card/05048)  
 [Net-Ready Eyes](https://netrunnerdb.com/en/card/08047)  
+[Surveyor](https://netrunnerdb.com/en/card/21118)  
 [Matryoshka](https://netrunnerdb.com/en/card/33094)  
 [Street Peddler](https://netrunnerdb.com/en/card/08062)  
 [Bookmark](https://netrunnerdb.com/en/card/08106)  
