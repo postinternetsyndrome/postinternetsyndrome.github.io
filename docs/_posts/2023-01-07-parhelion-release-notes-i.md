@@ -8,7 +8,7 @@ tags: [cr, cr-1.5, cr-1.6, cr-22.12]
 
 *Sifting through the CR with a fine-toothed comb so you don't have to.*
 
-On December 9 NSG released their newest expansion for Netrunner, Parhelion, and with it a new version of the Comprehensive Rules. More recently, on December 20, an updated Card Text Updates document was released as well. As of the publication of this article, no card rulings have been released on NRDB yet, but they are expected to arrive in the near future.
+On December 9 2022 NSG released their newest expansion for Netrunner, Parhelion, and with it a new version of the Comprehensive Rules. More recently, on December 20, an updated Card Text Updates document was released as well. As of the publication of this article, no card rulings have been released on NRDB yet, but they are expected to arrive in the near future.
 
 In total, three pages of rules have been added, putting the page count of the CR now at 133 pages in total. The CR itself doesn't contain a lot of context for why these changes were made and what their implications are, and that's is what I will attempt to address in this article.
 
@@ -30,6 +30,11 @@ Changes to examples are not covered by this article. Several of the new rules co
 
 > **Update 2023-01-08** 
 - Replaced misleading Surveyor example.
+
+> **Update 2023-02-16**
+- Fixed broken links.
+- Added missing rules references.
+- Added year of release in introduction.
 
 ## What you need to know
 To make things simpler for those who just want to know how the new rules affect their everyday lives, I've collected the major takeaways here at the top.
@@ -400,14 +405,14 @@ A simple grammar update.
 ### References
 This article uses the [NSG Comprehensive Rules Document version 22.12](https://nullsignal.games/wp-content/uploads/2022/12/Null-Signal-Games-Netrunner-Comprehensive-Rules-v22.12.pdf), which was released on 9 December 2022.
 
-For convenience of linking, this article also uses hosted versions of [CR 1.6](http://localhost:4000/cr/1.6.html) and [CR 22.12](http://localhost:4000/cr/22.12-Annotated.html) (the annotated version with changes highlighted - page counts and references differ slightly between this and the standard version). These are identical to the PDF documents found on the NSG site, but I can't guarantee that my own hosted materials are always up to date, so when in doubt, always refer to the official versions. The page numbers below refer to the non-annotated document.
+For convenience of linking, this article also uses hosted versions of [CR 1.6](/cr/1.6.html) and [CR 22.12](/cr/22.12-Annotated.html) (the annotated version with changes highlighted - page counts and references differ slightly between this and the standard version). These are identical to the PDF documents found on the NSG site, but I can't guarantee that my own hosted materials are always up to date, so when in doubt, always refer to the official versions. The page numbers below refer to the non-annotated document.
 
 **Rules mentioned:**  
 *Chapter 1: Game Concepts*  
-1.21.2a (p.28)  
 1.8.4 (p.10)  
 1.8.4a (p.11)  
 1.8.4b (p.11)
+1.21.2a (p.28)  
 
 *Chapter 3: Card Types*  
 3.6.5 (p.37)
@@ -448,6 +453,7 @@ For convenience of linking, this article also uses hosted versions of [CR 1.6](h
 9.8.5a (p.104)  
 9.8.10 (p.106)  
 9.8.11 (p.106)
+9.10.3b (p.112)
 
 *Chapter 10: Additional Rules*  
 10.1.5 (p.121)
