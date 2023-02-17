@@ -45,13 +45,13 @@ Like the Comprehensive Rules, the CTU document has a new versioning format. The 
   - [Wetwork Refit](#wetwork-refit)
 
 ## What you need to know
-There are relatively few changes of particular note in this CTU, which to many will be good news. We were spared this time the type of stealth functional changes that in previous CTU:s have occasionally snuck in under the radar and surprised people in tournaments.
+There are relatively few changes of particular note in this CTU, which to many will be good news. We were spared this time the type of stealth functional changes that in previous CTUs have occasionally snuck in under the radar and surprised people in tournaments.
 
 The main exhibits are the changes to [wordings regarding positions](#bloom) and [installed states](#installed) that are relevant to [ZATO City Grid](https://netrunnerdb.com/en/card/33127) and [Nanisivik Grid](https://netrunnerdb.com/en/card/33111). The rest may be considered esoterica, mainly of interest to rules nerds (but you're reading this, aren't you).
 
 One card which has been the subject of a lot of debate over the years is [Warroid Tracker](https://netrunnerdb.com/en/card/12068). Some frequenters of rules questions threads might be glad to see it getting an update to make it more clear [exactly when its ability applies](#server-or-root). Along with the recently [updated rules](/release-notes/parhelion-release-notes-i/#466g-i-j---expanded), there should no longer be any ambiguities left regarding the function of this card and other similar ones.
 
-The changed cards are listed below with a link to thir CTU entry, and a list of categories linking to explanatory sections later in the article.
+The changed cards are listed below with a link to their CTU entry, and a list of categories linking to explanatory sections later in the article.
 
 ## Cards added
 The following 43 cards which were previously unaltered have received new official text.
