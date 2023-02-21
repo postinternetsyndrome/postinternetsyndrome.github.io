@@ -44,6 +44,9 @@ Like the Comprehensive Rules, the CTU document has a new versioning format. The 
   - [Skulljack](#skulljack)
   - [Wetwork Refit](#wetwork-refit)
 
+> **Update 2023-02-21** 
+- Rewrote the Ika section since I didn't realize it was actually the very final card to receive the interface treatment.
+
 ## What you need to know
 There are relatively few changes of particular note in this CTU, which to many will be good news. We were spared this time the type of stealth functional changes that in previous CTUs have occasionally snuck in under the radar and surprised people in tournaments.
 
@@ -358,7 +361,7 @@ The second subroutine on Bloom has been updated to say "directly inward from thi
 This card has had the Bomb subtype removed and replaced by Weapon. This is technically a functional change, making the card tutorable by [Asmund Pudlat](https://netrunnerdb.com/en/card/33082), but it's obviously mostly for flavor and consistency reasons.
 
 ### Ika
-The long process of adding the "interface" ability flag to all existing icebreakers continues. This time, Ika was updated, and more will continue to trickle in as they pop up on the rules team's radar for one reason or another.
+The long process of adding the "interface" ability flag to all existing icebreakers finally concludes. Most of the icebreakers received this change in [CTU 1.0](https://nullsignal.games/wp-content/uploads/2021/08/NISEI-Card-Updates-v1.0.pdf), with a few stragglers being added in later versions. For whatever reason, Ika was the only one still missing it, but has now come in from the cold.
 
 ### Malia Z0l0k4
 "An" has been replaced with "1". NSG are generally moving towards specifying quantities with numbers rather than text.
@@ -515,6 +518,7 @@ For convenience of linking, this article also uses hosted version of [CR 22.12](
 **Other:**  
 [NSG Card Text Updates Document version 22.12](https://nullsignal.games/wp-content/uploads/2022/12/Null-Signal-Games-Netrunner-Card-Text-Updates-v22.12.pdf)  
 [NSG Card Text Updates Document version 1.3](https://nullsignal.games/wp-content/uploads/2022/06/NISEI-Card-Text-Updates-v1.3.pdf)
+[NSG Card Text Updates Document version 1.0](https://nullsignal.games/wp-content/uploads/2021/08/NISEI-Card-Updates-v1.0.pdf)
 [Remastering System Gateway](https://nullsignal.games/blog/remastering-system-gateway/), NSG blog post  
 
 ## Acknowledgements
