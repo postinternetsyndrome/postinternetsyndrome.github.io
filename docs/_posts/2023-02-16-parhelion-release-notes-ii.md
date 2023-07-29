@@ -227,7 +227,7 @@ Knight
 Kyuban  
 Parasite  
 Pawn  
-Rook 
+Rook  
 Tranquilizer  
 Trypano  
 
@@ -395,7 +395,7 @@ It is currently a matter of interpretation whether this particular text update c
 ## References
 This article uses the [NSG Comprehensive Rules Document version 22.12](https://nullsignal.games/wp-content/uploads/2022/12/Null-Signal-Games-Netrunner-Comprehensive-Rules-v22.12.pdf), which was released on 9 December 2022.
 
-For convenience of linking, this article also uses hosted version of [CR 22.12](/cr/22.12.html) and [CTU 22.12](/ctu/22.12.html). These are identical to the PDF documents found on the NSG site, but I can't guarantee that my own hosted materials are always up to date, so when in doubt, always refer to the official versions.
+For convenience of linking, this article also uses hosted versions of [CR 22.12](/cr/22.12.html) and [CTU 22.12](/ctu/22.12.html). These are identical to the PDF documents found on the NSG site, but I can't guarantee that my own hosted materials are always up to date, so when in doubt, always refer to the official versions.
 
 **Rules mentioned:**  
 *Chapter 1: Game Concepts*  

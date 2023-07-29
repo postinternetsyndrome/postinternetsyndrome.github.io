@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "Silent Ice: Parhelion Preview"
+title:  "Silent ice: Parhelion preview"
 date:   2022-12-04 12:00:00
 categories: news
-tags: [news, spoilers]
+tags: [news, spoilers, interviews]
 image:
-  path: /images/parhelion-preview/hush-watermark.png
   feature: parhelion-preview/nanisivik-watermark.png
   credit: Null Signal Games/Emilio Rodriguez
   creditlink: https://nullsignal.games/
@@ -57,8 +56,8 @@ Hush is an anarch program that is hosted on ice, but it is not a virus (whis mea
 
 This is an extremely specific tool, that at first glance might seem to not do much, but could serve an important role as a tech card against the types of effects that [Hunting Grounds](https://netrunnerdb.com/en/card/09035) is sometimes slotted for. (Keeping in mind that Hunting Grounds is one of the cards that will rotate from standard when the next set after Parhelion is released.) The effect of Hush is broader, applying not only to on encounter abilities, and you can benefit from it multiple times during a single turn. Unlike hunting grounds though, it requires extra work to be used against another card than the chosen one, since you must spend a click to move it.
 
-[![Kyuban](https://static.nrdbassets.com/v1/large/22020.jpg)](https://netrunnerdb.com/en/card/22020)
-[![Hunting Grounds](https://static.nrdbassets.com/v1/large/09035.jpg)](https://netrunnerdb.com/en/card/09035)
+[![Kyuban](https://card-images.netrunnerdb.com/v1/large/22020.jpg)](https://netrunnerdb.com/en/card/22020)
+[![Hunting Grounds](https://card-images.netrunnerdb.com/v1/large/09035.jpg)](https://netrunnerdb.com/en/card/09035)
 
 To get an overview of what the potential for Hush could be, here are some of the ice in the current cardpool that have non-subroutine abilities:
 - All the usual Hunting Grounds targets like [IP Block](https://netrunnerdb.com/en/card/11094), [Loki](https://netrunnerdb.com/en/card/12069), [Data Ward](https://netrunnerdb.com/en/card/11075) and [Funhouse](https://netrunnerdb.com/en/card/30054).
@@ -68,8 +67,8 @@ To get an overview of what the potential for Hush could be, here are some of the
 - [Afshar](https://netrunnerdb.com/en/card/26058) is a popular HQ ice that becomes much less taxing without the mandatory lose 2 subroutine. The same goes for other "good on a particular server" ice like [Winchester](https://netrunnerdb.com/en/card/26125) and [Bathynomus](https://netrunnerdb.com/en/card/33044).
 - [Akhet](https://netrunnerdb.com/en/card/26123), [Colossus](https://netrunnerdb.com/en/card/13048), [Pharos](https://netrunnerdb.com/en/card/30063) and other advanceable ice lose a sizeable chunk of their appeal when non-subroutine text is removed. Blindly installing Hush on an unrezzed ice with advancement counters is quite likely to do at least some damage. (Unless they're just keeping them there for [Trick of Light](https://netrunnerdb.com/en/card/02033)...)
 
-[![Border Control](https://static.nrdbassets.com/v1/large/23054.jpg)](https://netrunnerdb.com/en/card/23054)
-[![Akhet](https://static.nrdbassets.com/v1/large/26123.jpg)](https://netrunnerdb.com/en/card/26123)
+[![Border Control](https://card-images.netrunnerdb.com/v1/large/23054.jpg)](https://netrunnerdb.com/en/card/23054)
+[![Akhet](https://card-images.netrunnerdb.com/v1/large/26123.jpg)](https://netrunnerdb.com/en/card/26123)
 
 - Not all AI hate is on encounter like IP Block. Hush hits a wider range of AI hate cards like [Chiyashi](https://netrunnerdb.com/en/card/11112) and [Wraparound](https://netrunnerdb.com/en/card/04096), both of which pose problems for a deck which relies heavily on AI breakers (which is admittedly few in the current [Endurance](https://netrunnerdb.com/en/card/33025)-dominated meta).
 - Is this a final chance for [Endless Hunger](https://netrunnerdb.com/en/card/09033) to shine before rotating next year?[^2]
@@ -79,8 +78,8 @@ To get an overview of what the potential for Hush could be, here are some of the
 - Illicit ice is another nonbo, allowing the corp to completely avoid the downside of rezzing powerful cards like [Trebuchet](https://netrunnerdb.com/en/card/26060).
 - If for any reason you happen to access [Archangel](https://netrunnerdb.com/en/card/09013) or [Chrysalis](https://netrunnerdb.com/en/card/11013) while installed, Hush will save you from the forced encounter. If this ever happens to you, you shall most certainly receive the *Logic Bomb Most Obscure Interactions* award and be forever remembered as one of the premier scientists of Netrunner.
 
-[![Anansi](https://static.nrdbassets.com/v1/large/21051.jpg)](https://netrunnerdb.com/en/card/21051)
-[![Archangel](https://static.nrdbassets.com/v1/large/09013.jpg)](https://netrunnerdb.com/en/card/09013)
+[![Anansi](https://card-images.netrunnerdb.com/v1/large/21051.jpg)](https://netrunnerdb.com/en/card/21051)
+[![Archangel](https://card-images.netrunnerdb.com/v1/large/09013.jpg)](https://netrunnerdb.com/en/card/09013)
 
 There's also [Engram Flush](https://netrunnerdb.com/en/card/26108) and [Gold Farmer](https://netrunnerdb.com/en/card/26116), which will rotate from Startup when Parhelion releases however, and won't be played alongside Hush. But if they should ever be unbanned in Standard, this interaction could become important. Also on the current ban list are [Kakugo](https://netrunnerdb.com/en/card/12013) and [Slot Machine](https://netrunnerdb.com/en/card/23045), which are both vulnerable to Hush.
 
@@ -91,7 +90,7 @@ Nanisivik is an abandoned mining town in Canada, currently being used as a naval
 
 With this card, you can engage in all kinds of mischief which wasn't previously as easily available. Like [Marcus Batty](https://netrunnerdb.com/en/card/08074) before it, Nanisivik Grid interferes with the fundamental assumption that the corp can't proactively fire subroutines. It's conditional, of course, and there is counterplay; it dies to [Pinhole Threading](https://netrunnerdb.com/en/card/33013), or you can run archives to flip all the facedowns and reduce your vulnerability to this upgrade. But will it always be practical to do that? Probably not.
 
-[![Marcus Batty](https://static.nrdbassets.com/v1/large/08074.jpg)](https://netrunnerdb.com/en/card/08074)
+[![Marcus Batty](https://card-images.netrunnerdb.com/v1/large/08074.jpg)](https://netrunnerdb.com/en/card/08074)
 
 Nanisivik Grid represents a very broad range of threats; any upgrade installed in a server now indicates a whole host of potential headaches for the runner, as long as there are facedown cards in archives. It's a fun card because it asks us to reconsider a lot of older cards with interesting effects but which may not have quite cut it as a complete package. Some of these may now get a second chance as bearers of that one specific subroutine that you really need in your combo deck, even if they don't really make sense to install and rez.
 
@@ -103,8 +102,8 @@ Nanisivik Grid represents a very broad range of threats; any upgrade installed i
 - [Meridian](https://netrunnerdb.com/en/card/22028) is a funny one. [Stock Buy-Back](https://netrunnerdb.com/en/card/11019) is still in rotation.
 - Remember that one month when everyone obsessed about [Metamorph](https://netrunnerdb.com/en/card/12094)?
 
-[![Meridian](https://static.nrdbassets.com/v1/large/22028.jpg)](https://netrunnerdb.com/en/card/22028)
-[![Formicary](https://static.nrdbassets.com/v1/large/22054.jpg)](https://netrunnerdb.com/en/card/22054)
+[![Meridian](https://card-images.netrunnerdb.com/v1/large/22028.jpg)](https://netrunnerdb.com/en/card/22028)
+[![Formicary](https://card-images.netrunnerdb.com/v1/large/22054.jpg)](https://netrunnerdb.com/en/card/22054)
 
 - If you want to kill the runner, [Mlinzi](https://netrunnerdb.com/en/card/21115) is less reliable than Bathynomus, but for a grinder deck, that third sub might look attractive.
 - You get to fire big subs without paying the big rez cost. [Hydra](https://netrunnerdb.com/en/card/22046), Bulwark and [Týr](https://netrunnerdb.com/en/card/26102) all have high impact subs, but [Tithonium](https://netrunnerdb.com/en/card/12098) has a rare combination of end the run + substantial tempo hit in a single sub, which could be very valuable.
@@ -112,8 +111,8 @@ Nanisivik Grid represents a very broad range of threats; any upgrade installed i
 - You can use cards like [Herald](https://netrunnerdb.com/en/card/11115) and [Otoroshi](https://netrunnerdb.com/en/card/22038) to power up traps just before the runner accesses them, without them having a chance to jack out. In addition to having to keep an eye out for preadvanced [Reconstruction Contract](https://netrunnerdb.com/en/card/21020)s out of [Ob](https://netrunnerdb.com/en/card/33057), you now have a new threat that can turn a naked remote with two facedown cards into 5 net damage.
 - As an honorable mention, a facedown [Ravana](https://netrunnerdb.com/en/card/10087) in archives allows you to fire any sub on your installed and rezzed bioroids as well. [Architects of Tomorrow](https://netrunnerdb.com/en/card/11072) decks which run lots of ice to begin with could have a bit of fun with a cheeky Navisivik splash (it's only 2 influence after all).
 
-[![Bathynomus](https://static.nrdbassets.com/v1/large/33044.jpg)](https://netrunnerdb.com/en/card/33044)
-[![Tithonium](https://static.nrdbassets.com/v1/large/12098.jpg)](https://netrunnerdb.com/en/card/12098)
+[![Bathynomus](https://card-images.netrunnerdb.com/v1/large/33044.jpg)](https://netrunnerdb.com/en/card/33044)
+[![Tithonium](https://card-images.netrunnerdb.com/v1/large/12098.jpg)](https://netrunnerdb.com/en/card/12098)
 
 ## Interview
 
@@ -143,8 +142,8 @@ Nanisivik Grid represents a very broad range of threats; any upgrade installed i
 
 Next up, some questions specifically about Hush, a card which lets the runner surgically target specific ice and turn their abilities off.
 
-[![Hivemind](https://static.nrdbassets.com/v1/large/07042.jpg)](https://netrunnerdb.com/en/card/07042)
-[![Magnet](https://static.nrdbassets.com/v1/large/10103.jpg)](https://netrunnerdb.com/en/card/10103)
+[![Hivemind](https://card-images.netrunnerdb.com/v1/large/07042.jpg)](https://netrunnerdb.com/en/card/07042)
+[![Magnet](https://card-images.netrunnerdb.com/v1/large/10103.jpg)](https://netrunnerdb.com/en/card/10103)
 
 **Who would win in a fight? Hush or Magnet?**  
 *There’s quite a bit of history on how we ended up on the final card text, if we had the time we’d probably still be debating which alternative to choose. But at some point we had to make a decision on what text to put on it for the release. The main axis of debate was where to hide the complexity of the interaction with Magnet and Hush. We had two instructions by the development team: it should be simple to determine from the board state which one of the two wins without needing to know the history of previous board states, and it would preferably be Hush. We could technically write the ability so it isn’t affected by Magnet but that blew up the card text significantly. One approach we considered involved an interrupt when Hush would be hosted to blank the ice before Hush is hosted on it.*
@@ -156,7 +155,7 @@ Next up, some questions specifically about Hush, a card which lets the runner su
 **Do you have a favorite niche usage of the card?**  
 *If a Tithonium is unrezzed, you can install a Hush on it. When the Tithonium is rezzed afterwards, the ability that makes it unable to host cards is lost and you can host all your other Trojans on it as well!*
 
-[![Tithonium](https://static.nrdbassets.com/v1/large/12098.jpg)](https://netrunnerdb.com/en/card/12098)
+[![Tithonium](https://card-images.netrunnerdb.com/v1/large/12098.jpg)](https://netrunnerdb.com/en/card/12098)
 
 **Trojans host themselves on ice. Hypothetically, if a runner card hosts itself on another corp card than ice, would it still have the Trojan subtype? Would a non-program hosting itself on ice have it?**  
 *The exact meaning and intention behind subtypes is actually more a responsibility of the narrative team. Jamie, the rules lead, usually works together with Anzekay to work those things out. I don’t think a non-program being hosted on ice will be a thing as physical things aren’t really able to be hosted on netspace entities/objects. I would think then, as a result, anything hosting itself on something else than ice would also have a different subtype, as it represent something different from a narrative point of view.*
@@ -167,7 +166,7 @@ Next up, some questions specifically about Hush, a card which lets the runner su
 **"Host ice cannot gain abilities and loses all abilities". Why are both these clauses needed? Doesn't "lose all abilities" cover all of it? Could it not just say "host ice has no abilities"?**  
 *The thing we wanted to explicitly clarify with this text is that subroutines can in no way be added even when applying a ‘lose abilities’ effect first and then applying any ‘gain abilities’ effects afterwards, like [Warden Fatuma](https://netrunnerdb.com/en/card/21093). The way we’re planning to write the updated CR rules, it is indeed not strictly necessary. But we prefer players to be able to figure out interactions via card text as much as possible rather than having to rely on a resource outside of the game like the CR. On the other hand, we won’t be updating everything (yet) with the full ‘and cannot gain abilities’ text if there’s no way to make it relevant.*
 
-[![Warden Fatuma](https://static.nrdbassets.com/v1/large/21093.jpg)](https://netrunnerdb.com/en/card/21093)
+[![Warden Fatuma](https://card-images.netrunnerdb.com/v1/large/21093.jpg)](https://netrunnerdb.com/en/card/21093)
 
 **Will the retroactive trojan cards get their errata with the release of Parhelion or later with the remastered gateway?**  
 *We intend to release a CTU update with Trojan errata together with the upcoming Parhelion CR update.*
@@ -183,8 +182,8 @@ Nanisivik Grid is a dangerous new card that gives the corp a new type of agency 
 **What's the funniest sub to execute not during an encounter? Any silly interactions?**  
 *I think the amount of silliness you can do is rather limited, especially compared to some of the [Ganked!](https://netrunnerdb.com/en/card/26119) weirdness that is possible when resolving subroutines outside of a run. That said, a maybe somewhat silly interaction is to place an ice which modifies the next encounter at the innermost position, let’s say [Chum](https://netrunnerdb.com/en/card/01075), and then use Ganked! to make the modification apply to the next Ganked! encounter during that run.*
 
-[![Ganked!](https://static.nrdbassets.com/v1/large/26119.jpg)](https://netrunnerdb.com/en/card/26119)
-[![Chum](https://static.nrdbassets.com/v1/large/01075.jpg)](https://netrunnerdb.com/en/card/01075)
+[![Ganked!](https://card-images.netrunnerdb.com/v1/large/26119.jpg)](https://netrunnerdb.com/en/card/26119)
+[![Chum](https://card-images.netrunnerdb.com/v1/large/01075.jpg)](https://netrunnerdb.com/en/card/01075)
 
 **How does self references to the source ice work?**  
 *A reference to “this ice” would work if it were in a context that makes sense in Archives, like the Meridian subroutine. The current references to “this ice” in subroutines are mostly limited to trashing/derezzing the ice or placing counters on it, which does not do anything in Archives.*
@@ -198,8 +197,8 @@ Nanisivik Grid is a dangerous new card that gives the corp a new type of agency 
 **If you install a piece of ice using the first subroutine of [Brân 1.0](https://netrunnerdb.com/en/card/30039), what does "directly inward from this ice" mean?**  
 *Ice does not have a position in Archives, so the subroutine is referring to a location that cannot be determined. In short: the subroutine does nothing.*
 
-[![Bloom](https://static.nrdbassets.com/v1/large/12032.jpg)](https://netrunnerdb.com/en/card/12032)
-[![Brân 1.0](https://static.nrdbassets.com/v1/large/30039.jpg)](https://netrunnerdb.com/en/card/30039)
+[![Bloom](https://card-images.netrunnerdb.com/v1/large/12032.jpg)](https://netrunnerdb.com/en/card/12032)
+[![Brân 1.0](https://card-images.netrunnerdb.com/v1/large/30039.jpg)](https://netrunnerdb.com/en/card/30039)
 
 **Can you place a counter on [Free Lunch](https://netrunnerdb.com/en/card/12035) in the archives?**  
 *In the current draft of the CR you can technically place a counter on it. But it will be removed immediately in the next checkpoint. There shouldn't be a situation where it matters, but we'll have to see if we keep it that way in the end.*
@@ -215,8 +214,8 @@ Nanisivik Grid is a dangerous new card that gives the corp a new type of agency 
 **Does [Sand Storm](https://netrunnerdb.com/en/card/12114) work with Nanisivik Grid?**  
 *No, the subroutine only works while installed. We’ll be updating the text of Sand Storm in the CTU to make that clear explicitly.*
 
-[![Mind Game](https://static.nrdbassets.com/v1/large/11092.jpg)](https://netrunnerdb.com/en/card/11092)
-[![Sand Storm](https://static.nrdbassets.com/v1/large/12114.jpg)](https://netrunnerdb.com/en/card/12114)
+[![Mind Game](https://card-images.netrunnerdb.com/v1/large/11092.jpg)](https://netrunnerdb.com/en/card/11092)
+[![Sand Storm](https://card-images.netrunnerdb.com/v1/large/12114.jpg)](https://netrunnerdb.com/en/card/12114)
 
 Let's round off with a few questions about rules and the rules team more generally.
 
@@ -237,7 +236,7 @@ Let's round off with a few questions about rules and the rules team more general
 
 Finally, I've saved the most important questions for last...
 
-[![Bacterial Programming](https://static.nrdbassets.com/v1/large/21033.jpg)](https://netrunnerdb.com/en/card/21033)
+[![Bacterial Programming](https://card-images.netrunnerdb.com/v1/large/21033.jpg)](https://netrunnerdb.com/en/card/21033)
 
 **Was [Bacterial Programming](https://netrunnerdb.com/en/card/21033) a mistake?**  
 *In my personal opinion, it does feel a bit unrefined. The ability is cool, but also more complex than it needs to be for what it is actually trying to do. For example, I think they could’ve left out the trashing part and still keep the same feeling behind the card. I’d say that the overall rules impact overall is still not as heavy as a card like Ganked! But the issue is that Bacterial Programming in Archives is a bit of a mess to explain, which is a rather common occurrence in actual play. The weird Ganked! situations usually don’t come up in regular Netrunner play, besides maybe specifically making a Ganked! loop deck.*

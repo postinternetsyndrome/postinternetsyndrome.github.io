@@ -53,8 +53,8 @@ To make things simpler for those who just want to know how the new rules affect 
 - [9.12.2e](#9122e---expanded) - Any X that can't be resolved is considered to be 0, always.
 - [10.1.5](#1015---moved--modified) - [Media Blitz](https://netrunnerdb.com/en/card/09021) works with all self-references now. Rejoice!
 
-[![Hush](https://static.nrdbassets.com/v1/large/33071.jpg)](https://netrunnerdb.com/en/card/33071)
-[![Media Blitz](https://static.nrdbassets.com/v1/large/09021.jpg)](https://netrunnerdb.com/en/card/09021)
+[![Hush](https://card-images.netrunnerdb.com/v1/large/33071.jpg)](https://netrunnerdb.com/en/card/33071)
+[![Media Blitz](https://card-images.netrunnerdb.com/v1/large/09021.jpg)](https://netrunnerdb.com/en/card/09021)
 
 ## Version what?
 That's right! One of the changes this time is the versioning format of the document itself. The Comprehensive Rules are now versioned on the format [year].[month], the same scheme as the Standard Ban list. While I personally like the clarity of "1.6", "1.7", etc, I accept the logic of different parts of NSG using the same versioning system for their documents.
@@ -81,8 +81,8 @@ Note that this "memory effect" isn't a general principle, it's only used specifi
 
 This rule also affects some older cards like [Warroid Tracker](https://netrunnerdb.com/en/card/12068) whose abilities trigger from themselves being trashed, and where the exact meaning of "this server" was previously somewhat nebulous (since the card is technically in archives when the ability resolves). That is no longer the case: "This server" in the text of Warroid Tracker now unambiguously refers to the server where it was installed before being trashed, as one would expect.
 
-[![ZATO City Grid](https://static.nrdbassets.com/v1/large/33127.jpg)](https://netrunnerdb.com/en/card/33127)
-[![Nanisivik Grid](https://static.nrdbassets.com/v1/large/33111.jpg)](https://netrunnerdb.com/en/card/33111)
+[![ZATO City Grid](https://card-images.netrunnerdb.com/v1/large/33127.jpg)](https://netrunnerdb.com/en/card/33127)
+[![Nanisivik Grid](https://card-images.netrunnerdb.com/v1/large/33111.jpg)](https://netrunnerdb.com/en/card/33111)
 
 #### 4.8.7 - ADDED
 > **[CR 22.12](/cr/22.12-Annotated.html#pf32)**  
@@ -94,8 +94,8 @@ But wait! Doesn't Daily Business Show just say "/.../ increase the number of car
 
 Maybe counterintuitively, this rule does not apply to the two well-known cards similar to Daily Business Show, Blueberry Diesel and The Class Act. Those both say "look at" the top cards of your stack, after which you may move one of them to the bottom. Merely looking at cards does not move them anywhere, so in these cases, you *are* required to let your opponent know which one you put on the bottom.
 
-[![Daily Business Show](https://static.nrdbassets.com/v1/large/06086.jpg)](https://netrunnerdb.com/en/card/06086)
-[![The Class Act](https://static.nrdbassets.com/v1/large/26018.jpg)](https://netrunnerdb.com/en/card/26018)
+[![Daily Business Show](https://card-images.netrunnerdb.com/v1/large/06086.jpg)](https://netrunnerdb.com/en/card/06086)
+[![The Class Act](https://card-images.netrunnerdb.com/v1/large/26018.jpg)](https://netrunnerdb.com/en/card/26018)
 
 #### 9.8.10 - ADDED
 > **[CR 22.12](/cr/22.12-Annotated.html#pf6a)**  
@@ -148,8 +148,8 @@ No further actions to take.
 
 Note that it is the individual effects that are applied in this process, not the card as a whole. It is conceivable that a card with multiple abilities could get involved in a dependency chain like this, where the different abilities on the card could depend on various other effects and need to be handled individually when resolving the chain.
 
-[![Mother Goddess](https://static.nrdbassets.com/v1/large/06010.jpg)](https://netrunnerdb.com/en/card/06010)
-[![Magnet](https://static.nrdbassets.com/v1/large/10103.jpg)](https://netrunnerdb.com/en/card/10103)
+[![Mother Goddess](https://card-images.netrunnerdb.com/v1/large/06010.jpg)](https://netrunnerdb.com/en/card/06010)
+[![Magnet](https://card-images.netrunnerdb.com/v1/large/10103.jpg)](https://netrunnerdb.com/en/card/10103)
 
 It's not always a straight line though. There's a by now well-known example of a dependency loop, which is also covered by this new rule, with an explicit example given. In such situations, effects whose source is hosted on the source of other effects take precedence:
 
@@ -222,8 +222,8 @@ The scope of this rule has expanded slightly. Now, this covers cards changing zo
 
 NOTE: The intention here just seems to have been to make the rule more general, but it does have one side effect: Rule 8.8.4c explicitly states that agendas with counters that are swapped between the two score areas retain all counters. This is now in direct contradiction with 1.13.11, which removes counters on any zone change. The rules team confirmed that this was an oversight when I reached out to them, and I assume that this ambiguity will be resolved in a future update. They did not state which rule should take precedence in the meanwhile though, so if this one comes up in a tournament it will be up to the judge to decide. It should be a pretty rare occurrence though, since you need a combination of several cards like [Turntable](https://netrunnerdb.com/en/card/08043) and [Exchange of Information](https://netrunnerdb.com/en/card/10092) to make this matter.
 
-[![Turntable](https://static.nrdbassets.com/v1/large/08043.jpg)](https://netrunnerdb.com/en/card/08043)
-[![Exchange of Information](https://static.nrdbassets.com/v1/large/10092.jpg)](https://netrunnerdb.com/en/card/10092)
+[![Turntable](https://card-images.netrunnerdb.com/v1/large/08043.jpg)](https://netrunnerdb.com/en/card/08043)
+[![Exchange of Information](https://card-images.netrunnerdb.com/v1/large/10092.jpg)](https://netrunnerdb.com/en/card/10092)
 
 #### 2.16.7c, h, i - SUBTYPES ADDED & REMOVED
 > **[CR 1.6](/cr/1.6.html#pf21)**  
@@ -262,8 +262,8 @@ This is a subtle but important update to the rules about when inactive cards hav
 
 Amusingly, this change causes [Muertos Gang Member](https://netrunnerdb.com/en/card/08068) and [DJ Fenris](https://netrunnerdb.com/en/card/22025) to actually work. Under the old wording, their "when uninstalled" abilities would technically have been inactive and never resolved.
 
-[![Muertos Gang Member](https://static.nrdbassets.com/v1/large/08068.jpg)](https://netrunnerdb.com/en/card/08068)
-[![DJ Fenris](https://static.nrdbassets.com/v1/large/22025.jpg)](https://netrunnerdb.com/en/card/22025)
+[![Muertos Gang Member](https://card-images.netrunnerdb.com/v1/large/08068.jpg)](https://netrunnerdb.com/en/card/08068)
+[![DJ Fenris](https://card-images.netrunnerdb.com/v1/large/22025.jpg)](https://netrunnerdb.com/en/card/22025)
 
 #### 9.8.2b - REWORDED
 > **[CR 1.6](/cr/1.6.html#pf65)**  
@@ -295,8 +295,8 @@ maintaining the choice has the same duration as the other lingering effect.
 
 In this rare case of reducing the scope of an existing rule, the previous - rather convoluted - system of linked lingering abilities is replaced by a more concrete wording that simply states that certain types of abilities expire at the end of your turn. This rule was only used for turn-scope effects like [Security Testing](https://netrunnerdb.com/en/card/05048) anyway, so the added complexity just wasn't needed. Some other similar abilities such as [Net-Ready Eyes](https://netrunnerdb.com/en/card/08047) are fully covered by 9.10.3a and are not affected by this change.
 
-[![Security Testing](https://static.nrdbassets.com/v1/large/05048.jpg)](https://netrunnerdb.com/en/card/05048)
-[![Net-Ready Eyes](https://static.nrdbassets.com/v1/large/08047.jpg)](https://netrunnerdb.com/en/card/08047)
+[![Security Testing](https://card-images.netrunnerdb.com/v1/large/05048.jpg)](https://netrunnerdb.com/en/card/05048)
+[![Net-Ready Eyes](https://card-images.netrunnerdb.com/v1/large/08047.jpg)](https://netrunnerdb.com/en/card/08047)
 
 #### 9.12.2e - EXPANDED
 > **[CR 22.12](/cr/22.12-Annotated.html#pf76)**  

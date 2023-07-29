@@ -54,7 +54,7 @@ The second part of the rule clarifies that even though playing a card might caus
 
 And thirdly, you don't consider changes in game state that might result from other abilities triggering off of things happening during the resolution of the ability you want to use, or after it. (Like [Rejig](https://netrunnerdb.com/en/card/26029) being trashed after use, causing [Aniccam](https://netrunnerdb.com/en/card/26084) to draw a card for you.)
 
-[![Diesel](https://static.nrdbassets.com/v1/large/01034.jpg ""Draw 3 cards."")](https://netrunnerdb.com/en/card/01034) [![Aniccam](https://static.nrdbassets.com/v1/large/26084.jpg ""+1 [memory unit].
+[![Diesel](https://card-images.netrunnerdb.com/v1/large/01034.jpg ""Draw 3 cards."")](https://netrunnerdb.com/en/card/01034) [![Aniccam](https://card-images.netrunnerdb.com/v1/large/26084.jpg ""+1 [memory unit].
 The first time each turn an event is trashed (from any location), draw 1 card.
 Limit 1 console per player."")](https://netrunnerdb.com/en/card/26084)
 
@@ -101,8 +101,8 @@ This is where the fun starts. Certain cards have costs that are quite intricate.
 
 A typical use case is trashing a [Botulus](https://netrunnerdb.com/en/card/30004) and reinstalling it on another piece of ice. However! NCIGS demands that we look only at the results of resolving the effect of the ability when determining if the ability may be used or not. So let's look at a common game state: It's early in the game, you haven't actually trashed any cards yet; the heap is empty. You have a Botulus installed on a piece of ice in front of HQ, and a Simulchip. You run R&D, and when the corp rezzes their Ice Wall, you want to pop Simulchip to trash the Botulus and reinstall it on Ice Wall instead.
 
-[![Simulchip](https://static.nrdbassets.com/v1/large/26085.jpg ""If no installed programs have been trashed this turn, you must trash 1 installed program as an additional cost to use this hardware.
-\[trash]: Install 1 program from your heap, paying 3[c] less."")](https://netrunnerdb.com/en/card/26085) [![Botulus](https://static.nrdbassets.com/v1/large/30004.jpg ""Install only on a piece of ice.
+[![Simulchip](https://card-images.netrunnerdb.com/v1/large/26085.jpg ""If no installed programs have been trashed this turn, you must trash 1 installed program as an additional cost to use this hardware.
+\[trash]: Install 1 program from your heap, paying 3[c] less."")](https://netrunnerdb.com/en/card/26085) [![Botulus](https://card-images.netrunnerdb.com/v1/large/30004.jpg ""Install only on a piece of ice.
 When you install this program and when your turn begins, place 1 virus counter on this program.
 Hosted virus counter: Break 1 subroutine on host ice."")](https://netrunnerdb.com/en/card/30004)
 
@@ -114,21 +114,21 @@ Simulchip is very similar to the now long rotated card [Scavenge](https://netrun
 
 This was considered very tedious and countless players undoubtedly misplayed this interaction without ever being aware of it. Eventually, the card received errata that completely rewrote the ability to have the trashing be part of the effect instead of the cost, which caused NCIGS to not apply anymore[^4]. This was one of very few times that FFG issued an errata to a card simply to improve the usability. In almost all other cases, errata was reserved for cards that had [omissions](https://netrunnerdb.com/en/card/04002), [misprints](https://netrunnerdb.com/en/card/12015) or (in extreme cases only) [were in dire need of rebalancing](https://netrunnerdb.com/en/card/01081).
 
-[![Scavenge](https://static.nrdbassets.com/v1/large/03034.jpg ""As an additional cost to play this card, trash an installed program.
-Install a program from your grip or heap, lowering the install cost of that program by the cost of the program trashed."")](https://netrunnerdb.com/en/card/03034) [![AstroScript Pilot Program](https://static.nrdbassets.com/v1/large/01081.jpg ""When you score this agenda, place 1 agenda counter on it.
+[![Scavenge](https://card-images.netrunnerdb.com/v1/large/03034.jpg ""As an additional cost to play this card, trash an installed program.
+Install a program from your grip or heap, lowering the install cost of that program by the cost of the program trashed."")](https://netrunnerdb.com/en/card/03034) [![AstroScript Pilot Program](https://card-images.netrunnerdb.com/v1/large/01081.jpg ""When you score this agenda, place 1 agenda counter on it.
 Hosted agenda counter: Place 1 advancement counter on an installed card you can advance.
 Limit 1 per deck."")](https://netrunnerdb.com/en/card/01081)
 
 Paying costs can also be the trigger for other abilities. The most well-known examples are [Geist](https://netrunnerdb.com/en/card/08063) and [Tech Trader](https://netrunnerdb.com/en/card/10023) (often played together, now both rotated). After a cost is paid there is a checkpoint, allowing conditional abilities to trigger in between the paying of the cost and the resolution of the ability's effect. Going back to Simulchip, let's imagine we want to use its ability to install an Engolo, a pricy card at 5 credits. It's the only card in your heap, having been trashed earlier the same turn, so there is a valid target for Simulchip. You, however, are broke. Luckily, you have two Tech Traders installed that will give you 2 credits when you trash Simulchip, and the ability itself gives you a 3 credit discount, so that should cover it! Alas, no. NCIGS ignores game state changes triggered by the paying of costs, and determines that you are 2 credits short of being able to pay for Engolo, so you can't trigger the ability.
 
-[![Geist](https://static.nrdbassets.com/v1/large/08063.jpg ""Whenever you use a [trash] ability, draw 1 card."")](https://netrunnerdb.com/en/card/08063) [![Tech Trader](https://static.nrdbassets.com/v1/large/10023.jpg ""Whenever you use a [trash] ability, gain 1[c]."")](https://netrunnerdb.com/en/card/10023)
+[![Geist](https://card-images.netrunnerdb.com/v1/large/08063.jpg ""Whenever you use a [trash] ability, draw 1 card."")](https://netrunnerdb.com/en/card/08063) [![Tech Trader](https://card-images.netrunnerdb.com/v1/large/10023.jpg ""Whenever you use a [trash] ability, gain 1[c]."")](https://netrunnerdb.com/en/card/10023)
 
 ## Subversion
 NCIGS is not universal. It applies specifically at the point of the timing sequence where you choose to take an action, trigger a paid ability or trigger a conditional ability. Once an effect has started resolving, NCIGS doesn't care anymore. This means that you can sometimes walk right past it and perform exactly the kind of "nonsense" plays the rule is seemingly designed to prevent. For example: Cards with effects directing the user to do something a certain number of times or spend a quantity of something allow you to choose the number 0[^3]. Take [Mutually Assured Destruction](https://netrunnerdb.com/en/card/33064). Because of NCIGS, you are not allowed to play it unless you have at least 1 rezzed card in play. But if you do fulfill that condition, you may play it and then choose to trash 0 cards. This will give the runner 0 tags and is a perfectly legal play.
 
 There is another type of effect which frequently trips people up, and that is increasing the strength of icebreakers. It is, in fact, completely legal to increase the strength of an icebreaker at any point, using their native pump abilities or abilities from another card (like [Takobi](https://netrunnerdb.com/en/card/21026)), even if it does you no good at all. This includes outside a run, or even on the corp's turn. This has recently become very relevant due to the interactions of cards like [Mantle](https://netrunnerdb.com/en/card/26088) and [The Twinning](https://netrunnerdb.com/en/card/33010), where you might be interested only in the side effect and not the primary ability at all.
 
-[![Mutually Assured Destruction](https://static.nrdbassets.com/v1/large/33064.jpg ""As an additional cost to play this operation, spend [click] [click]. Trash any number of your rezzed cards. Give the Runner 1 tag for each card trashed this way."")](https://netrunnerdb.com/en/card/33064) [![The Twinning](https://static.nrdbassets.com/v1/large/33010.jpg ""The first time each turn you spend credits from an installed card, place 1 power counter on this resource.
+[![Mutually Assured Destruction](https://card-images.netrunnerdb.com/v1/large/33064.jpg ""As an additional cost to play this operation, spend [click] [click]. Trash any number of your rezzed cards. Give the Runner 1 tag for each card trashed this way."")](https://netrunnerdb.com/en/card/33064) [![The Twinning](https://card-images.netrunnerdb.com/v1/large/33010.jpg ""The first time each turn you spend credits from an installed card, place 1 power counter on this resource.
 Whenever you breach HQ or R&D, you may remove up to 2 hosted power counters to access that many additional cards."")](https://netrunnerdb.com/en/card/33010)
 
 An icebreaker typically retains any strength gains from abilities until the end of the current encounter[^5], but strength increases outside of runs are reverted almost immediately, in the next checkpoint[^6]. "In the next checkpoint" is not the same as "instantly" though, and such a strength increase is still considered a change in game state. This is not actually an exception to the NCIGS rule. It has to work like this, or it would be very hard indeed to use icebreakers! Consider how most icebreakers have separate abilities for breaking and increasing strength. The expected usage is to first use the strength-increasing ability, and then use the break ability once you have enough strength to interface. If increasing strength on its own was not considered a change in game state, icebreakers would be functionally unusable. (Or they would all have to be worded in ways similar to [Paperclip](https://netrunnerdb.com/en/card/11024) and [Black Orchestra](https://netrunnerdb.com/en/card/11042).)
@@ -137,7 +137,7 @@ Is shuffling your deck a change in the game state? It is. You are allowed to tri
 
 A final example: [Overclock](https://netrunnerdb.com/en/card/30029) is a simple card. It enters play, you put some money on it and then make a run. During the run you can spend the credits. There are abilities that may prevent or forbid you from making runs though, like [Peace in Our Time](https://netrunnerdb.com/en/card/11109). Can you still play Overclock if such an ability is in effect? [Yes you can](https://twitter.com/NISEI_Rules/status/1561051928754237440). Placing credits on a card in play is a change in game state, even though you can logically conclude that nothing productive will come of it.
 
-[![Overclock](https://static.nrdbassets.com/v1/large/30029.jpg ""Place 5[c] on this event, then run any server. You can spend hosted credits during that run."")](https://netrunnerdb.com/en/card/30029) [![Peace in Our Time](https://static.nrdbassets.com/v1/large/11109.jpg ""Play only as your first [click] and only if the Corp scored no agendas during their last turn.
+[![Overclock](https://card-images.netrunnerdb.com/v1/large/30029.jpg ""Place 5[c] on this event, then run any server. You can spend hosted credits during that run."")](https://netrunnerdb.com/en/card/30029) [![Peace in Our Time](https://card-images.netrunnerdb.com/v1/large/11109.jpg ""Play only as your first [click] and only if the Corp scored no agendas during their last turn.
 Gain 10[c]. The Corp gains 5[c]. You cannot make any runs this turn."")](https://netrunnerdb.com/en/card/11109)
 
 Clearly, NCIGS can't completely protect us from using cards and abilities for no effect. It can both prevent seemingly legitimate use cases (like Simulchip switcheroos) and allow completely nonsensical plays (like playing Overclock after Peace in Our Time). Whatever is it for? Find out after this short break!
@@ -177,8 +177,8 @@ FAQ 2.2 came out a few months after Geist was printed (but before Tech Trader), 
 
 Another prominent card in the same pack as Geist ([The Underway](https://netrunnerdb.com/en/set/uw/images), SanSan Cycle) was [Street Peddler](https://netrunnerdb.com/en/card/08062), for which the most common rules question always was: "If Street Peddler has only events hosted on it, can I still trash it to release them into the heap or are they stuck there forever?" By now you know enough to answer that question yourself.[^9]
 
-[![Fall Guy](https://static.nrdbassets.com/v1/large/04106.jpg ""[trash]: Prevent another installed resource from being trashed.
-\[trash]: Gain 2[c]."")](https://netrunnerdb.com/en/card/04106) [![Street Peddler](https://static.nrdbassets.com/v1/large/08062.jpg ""When you install Street Peddler, host the top 3 cards of your stack facedown on Street Peddler (you may look at these cards at any time).
+[![Fall Guy](https://card-images.netrunnerdb.com/v1/large/04106.jpg ""[trash]: Prevent another installed resource from being trashed.
+\[trash]: Gain 2[c]."")](https://netrunnerdb.com/en/card/04106) [![Street Peddler](https://card-images.netrunnerdb.com/v1/large/08062.jpg ""When you install Street Peddler, host the top 3 cards of your stack facedown on Street Peddler (you may look at these cards at any time).
 \[trash]: Install 1 card hosted on Street Peddler, lowering its install cost by 1."")](https://netrunnerdb.com/en/card/08062)
 
 Why didn't the designers want the player to be able to do things like this? There are two main lines of reasoning that can lead to that conclusion:
@@ -219,7 +219,7 @@ The new Midnight Sun ID [Ob Superheavy Logistics](https://netrunnerdb.com/en/car
 
 Or they could call a judge to confirm.
 
-[![Ob Superheavey Logistics](https://static.nrdbassets.com/v1/large/33057.jpg ""Whenever you trash a rezzed card, except during installation, you may search R&D for 1 card with a printed rez cost exactly 1[c] less than the trashed card's printed rez cost. Install and rez the card you found, ignoring credit costs. Use this ability only once per turn."")](https://netrunnerdb.com/en/card/26085) [![Reconstruction Contract](https://static.nrdbassets.com/v1/large/21020.jpg ""Whenever the Runner suffers any amount of meat damage, you may place 1 advancement token on Reconstruction Contract.
+[![Ob Superheavey Logistics](https://card-images.netrunnerdb.com/v1/large/33057.jpg ""Whenever you trash a rezzed card, except during installation, you may search R&D for 1 card with a printed rez cost exactly 1[c] less than the trashed card's printed rez cost. Install and rez the card you found, ignoring credit costs. Use this ability only once per turn."")](https://netrunnerdb.com/en/card/26085) [![Reconstruction Contract](https://card-images.netrunnerdb.com/v1/large/21020.jpg ""Whenever the Runner suffers any amount of meat damage, you may place 1 advancement token on Reconstruction Contract.
 \[trash]: Move any number of advancement tokens from Reconstruction Contract to a card that can be advanced."")](https://netrunnerdb.com/en/card/21020)
 
 
