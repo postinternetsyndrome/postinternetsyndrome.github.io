@@ -517,8 +517,8 @@ For convenience of linking, this article also uses hosted versions of [CR 22.12]
 
 **Other:**  
 [NSG Card Text Updates Document version 22.12](https://nullsignal.games/wp-content/uploads/2022/12/Null-Signal-Games-Netrunner-Card-Text-Updates-v22.12.pdf)  
-[NSG Card Text Updates Document version 1.3](https://nullsignal.games/wp-content/uploads/2022/06/NISEI-Card-Text-Updates-v1.3.pdf)
-[NSG Card Text Updates Document version 1.0](https://nullsignal.games/wp-content/uploads/2021/08/NISEI-Card-Updates-v1.0.pdf)
+[NSG Card Text Updates Document version 1.3](https://nullsignal.games/wp-content/uploads/2022/06/NISEI-Card-Text-Updates-v1.3.pdf)  
+[NSG Card Text Updates Document version 1.0](https://nullsignal.games/wp-content/uploads/2021/08/NISEI-Card-Updates-v1.0.pdf)  
 [Remastering System Gateway](https://nullsignal.games/blog/remastering-system-gateway/), NSG blog post  
 
 ## Acknowledgements

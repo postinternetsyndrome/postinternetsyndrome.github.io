@@ -50,6 +50,14 @@
 				<li><a href="{{ site.url }}/tags/">Tags</a></li>
 			</ul>
 		</li>
+		<li>
+			<a href="#">Resources</a>
+			<ul class="dl-submenu">
+				<li><a href="{{ site.url }}/cr/1.6.html">CR 1.6</a></li>
+				<li><a href="{{ site.url }}/cr/22.12.html">CR 22.22</a></li>
+				<li><a href="{{ site.url }}/cr/22.12-Annotated.html">CR 22.22 (Annotated)</a></li>
+			</ul>
+		</li>
 		{% for link in site.data.navigation %}
 	    {% if link.url contains 'http' %}
 	        {% assign domain = '' %}
