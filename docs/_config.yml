@@ -35,7 +35,7 @@ defaults:
     path: ""
   values:
     image:
-      feature: gold-banner-cropped.jpg
+      feature: gold-banner-cropped-more.jpg
 
 # Analytics and webmaster tools stuff goes here
 google_verify:      
