@@ -2,18 +2,6 @@
 <script>window.jQuery || document.write('<script src="{{ site.url }}/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="{{ site.url }}/assets/js/scripts.min.js"></script>
 
-<!-- TelemetryDeck -->
-<!-- TODO: add nifty setting that prevents this from being active in the dev env. -->
-<script src="https://unpkg.com/@telemetrydeck/sdk/dist/telemetrydeck.min.js" defer></script>
-<script>
-  // Create an anonymous identifier for user counting purposes. Telemetrydeck itself further
-  // hashes and anonymizes the values sent to it, so it is not possible to track the data back
-  // to specific users.
-  const userId = localStorage.getItem("anonymousUserId");
-  if(!userId) localStorage.setItem("anonymousUserId", crypto.randomUUID());
-  window.td = window.td || [];
-</script>
-
 {% if jekyll.environment == "production" %}
   // Logic Bomb uses Telemetrydeck for analytics. It is GDPR friendly and this site does not save any cookies.
   // No personally identifying data is collected. For more information see: https://telemetrydeck.com/privacy/
