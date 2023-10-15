@@ -31,7 +31,7 @@ This looks pretty definitive. However, when the rules team reviewed FFG rulings 
 
 > Ice that is swapped is installed, but the install cost of the ice being swapped does not have to be paid.
 
-> Ice installed with Midori can be rezzed with the Amazon Industrial Zone.
+> Ice installed with Midori can be rezzed with the [Amazon Industrial Zone](https://netrunnerdb.com/en/card/02038).
 
 The first one of these uses vague language reminiscent to the "becomes installed" wording that made the previous CR a bit ambiguous as to the exact intent, but the second one clearly establishes the precedent that effects that trigger off of the installation of a card also work with swapping.
 
@@ -97,6 +97,7 @@ For convenience of linking, this article also uses NSG rules team member Ruben P
 **Cards mentioned:**  
 [A Teia](https://netrunnerdb.com/en/card/34039)  
 [Midori](https://netrunnerdb.com/en/card/02113)  
+[Amazon Industrial Zone](https://netrunnerdb.com/en/card/02038)  
 [In the Groove](https://netrunnerdb.com/en/card/26020)  
 [Scheherazade](https://netrunnerdb.com/en/card/04022)  
 [Technical Writer](https://netrunnerdb.com/en/card/09055)  

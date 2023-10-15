@@ -22,7 +22,7 @@ The proof is using a collection of different techniques to lock down both the ru
 One important limitation of the proof is that the players are not completely without agency. This would be almost impossible to achieve in the current card pool. Instead, a number of game ending conditions are set up so as to make any actions but the desired ones end the game in a loss for the player in question, meaning an "optimal player" would never take them. This is a bit "softer" than the full lockdown achieved in the MtG proof, and you have to accept this premise for the construction to work.
 
 [![Whitespace](https://card-images.netrunnerdb.com/v1/large/30074.jpg)](https://netrunnerdb.com/en/card/30074)
-[![Always Be Runnin](https://card-images.netrunnerdb.com/v1/large/09041.jpg)](https://netrunnerdb.com/en/card/09041)
+[![Always Be Running](https://card-images.netrunnerdb.com/v1/large/09041.jpg)](https://netrunnerdb.com/en/card/09041)
 
 Some of the key pieces involve the ice [Whitespace](https://netrunnerdb.com/en/card/30074), which is used to manipulate the runner's credit total and effect different outcomes depending on the runner's credits, as well as [Hourglass](https://netrunnerdb.com/en/card/02071), which drains their clicks to keep them constrained. [Always Be Running](https://netrunnerdb.com/en/card/09041) ensures the runner must always start their turn by making a run, and all servers but one are protected by ice that will kill the runner to ensure they will run the one server which will maintain the loop.
 
