@@ -8,6 +8,9 @@ tags: [news, cr, cr-23.08]
 
 *"Being a particularly clever boy, I made the sensible decision to invest the money. I invested it in drink and expensive food and stylish clothes and in buying myself a lot of friends at the local inn."*
 
+> **Update 2023-10-16** 
+- The [decklist](https://netrunnerdb.com/en/decklist/49e43583-25b8-439e-98c0-dc97a0f35ca7/-eternal-hacker-hall-of-fame-undefeated-worlds-2023) has now been published on NRDB. Head over there and give it a like!
+
 Today we bring you a quick update on a recent *rules development*!
 
 Right after the release of the Automata Initiative on July 31, NSG put out [an article](https://nullsignal.games/blog/the-automata-initiative-rules-highlights/) with some quick discussion on various upcoming rules changes relevant to the new cards. A week later, on August 7, the full [Comprehensive Rules v23.08](https://access.nullsignal.games/CompRules/Null-Signal-Games-Netrunner-Comprehensive-Rules-v23.08.pdf) was published, which contains all the gory details behind those changes.
@@ -59,7 +62,7 @@ You play [In the Groove](https://netrunnerdb.com/en/card/26020), [Scheherazade](
 [![Technical Writer](https://card-images.netrunnerdb.com/v1/large/09055.jpg)](https://netrunnerdb.com/en/card/09055)
 [![Aghora](https://card-images.netrunnerdb.com/v1/large/10097.jpg)](https://netrunnerdb.com/en/card/10097)
 
-At this point, you may proceed to win the game at your leisure. Apparently, the deck played at Crown of Servers this year runs [Vamp](https://netrunnerdb.com/en/card/02021) for this purpose, but I'm sure there are other valid options. It certainly seems like one of the simplest ways to leverage a large credit count into a win though.
+At this point, you may proceed to win the game at your leisure. You can continue drawing cards with In the Groove by Deva swapping some more after you cash out the Technical Writer, so you get immediate access to your win condition. The [deck](https://netrunnerdb.com/en/decklist/49e43583-25b8-439e-98c0-dc97a0f35ca7/-eternal-hacker-hall-of-fame-undefeated-worlds-2023) played at Crown of Servers runs [Vamp](https://netrunnerdb.com/en/card/02021) for this purpose. I'm sure there are other valid options, but Vamp certainly seems like one of the simplest ways to leverage a large credit count into a win.
 
 Amusingly, the breaker of choice for this deck is the oft-maligned [Wyrm](https://netrunnerdb.com/en/card/01013), because it's an AI breaker without any restrictions other than being extremely expensive to use. The ID is [Kabonesa Wu](https://netrunnerdb.com/en/card/21025) of course, so you can assemble the combo (which isn't even that complex to begin with) lightning fast.
 
@@ -117,9 +120,10 @@ For convenience of linking, this article also uses NSG rules team member Ruben P
 [TAI Rules Highlights](https://nullsignal.games/blog/the-automata-initiative-rules-highlights/), NSG blog post  
 [Democracy and Dogma unofficial FAQ](https://ancur.fandom.com/wiki/Democracy_and_Dogma_UFAQ)  
 [Android: Netrunner FAQ v1.3](http://web.archive.org/web/20131022032232/http://www.fantasyflightgames.com/ffg_content/android-netrunner/support/FAQ/Android-Netrunner%20FAQ.pdf)  
-[Worlds 2023 schedule](https://nullsignal.games/blog/worlds-schedule-announcement/)  
+[Worlds 2023 schedule](https://nullsignal.games/blog/worlds-schedule-announcement/), NSG blog post  
 [Crown of Servers](https://alwaysberunning.net/tournaments/3810/2023-crown-of-servers-team-tournament#), ABR page  
 [NSG Twitch channel](https://www.twitch.tv/videos/1949780388)  
+[Hacker Hall of Fame](https://netrunnerdb.com/en/decklist/49e43583-25b8-439e-98c0-dc97a0f35ca7/-eternal-hacker-hall-of-fame-undefeated-worlds-2023), NRDB decklist
 
 ## Acknowledgements
 *Proofreading & factchecking*  
