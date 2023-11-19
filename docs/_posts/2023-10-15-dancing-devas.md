@@ -36,7 +36,7 @@ This looks pretty definitive. However, when the rules team reviewed FFG rulings 
 
 > Ice installed with Midori can be rezzed with the [Amazon Industrial Zone](https://netrunnerdb.com/en/card/02038).
 
-The first one of these uses vague language reminiscent to the "becomes installed" wording that made the previous CR a bit ambiguous as to the exact intent, but the second one clearly establishes the precedent that effects that trigger off of the installation of a card also work with swapping.
+The first one of these uses vague language reminiscent of the "becomes installed" wording that made the previous CR a bit ambiguous as to the exact intent, but the second one clearly establishes the precedent that effects that trigger off of the installation of a card also work with swapping.
 
 This is in many ways reasonable, because the Midori rulings were in the official [FAQ 1.3](http://web.archive.org/web/20131022032232/http://www.fantasyflightgames.com/ffg_content/android-netrunner/support/FAQ/Android-Netrunner%20FAQ.pdf), all the way back in 2013. They were always there, never officially reversed, just ignored. However, many players were no doubt surprised when this interpretation was "suddenly" codified in the CR this summer.
 
