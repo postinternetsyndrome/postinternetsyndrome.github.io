@@ -11,6 +11,9 @@ tags: [news, cr, cr-23.08]
 > **Update 2023-10-16** 
 - The [decklist](https://netrunnerdb.com/en/decklist/49e43583-25b8-439e-98c0-dc97a0f35ca7/-eternal-hacker-hall-of-fame-undefeated-worlds-2023) has now been published on NRDB. Head over there and give it a like!
 
+> **Update 2023-11-30**
+- The devas are now [banned](https://nullsignal.games/blog/eternal-balance-update-11-23/) in Eternal. It was fun while it lasted!
+
 Today we bring you a quick update on a recent *rules development*!
 
 Right after the release of the Automata Initiative on July 31, NSG put out [an article](https://nullsignal.games/blog/the-automata-initiative-rules-highlights/) with some quick discussion on various upcoming rules changes relevant to the new cards. A week later, on August 7, the full [Comprehensive Rules v23.08](https://access.nullsignal.games/CompRules/Null-Signal-Games-Netrunner-Comprehensive-Rules-v23.08.pdf) was published, which contains all the gory details behind those changes.
