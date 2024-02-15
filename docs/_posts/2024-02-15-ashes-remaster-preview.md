@@ -70,8 +70,6 @@ This solves the age-old issue with the original wording of [Scavenge](https://ne
 > **As an additional cost to play this event, add 1 installed program or piece of hardware to your grip.**  
 > Install **1** program or piece of hardware **from your grip**, paying X[credit] less. X is equal to the printed install cost of the **card you added to your grip**.
 
-TODO: replace with fixed image (manveruppd will send)
-
 [![Rejig](https://card-images.netrunnerdb.com/v1/large/26029.jpg)](https://netrunnerdb.com/en/card/26029)
 ![Rejig](/images/ashes-remastered/ASH_DFL_29 (Small).png)
 
