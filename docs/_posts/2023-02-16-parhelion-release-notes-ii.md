@@ -47,6 +47,9 @@ Like the Comprehensive Rules, the CTU document has a new versioning format. The 
 > **Update 2023-02-21** 
 - Rewrote the Ika section since I didn't realize it was actually the very final card to receive the interface treatment.
 
+> **Update 2024-08-15**
+- Removed the Ika section since I didn't realize it was actually just getting a trojan subtype, it already had the interface text, ever since [CTU 1.0](https://nullsignal.games/wp-content/uploads/2021/08/NISEI-Card-Updates-v1.0.pdf).
+
 ## What you need to know
 There are relatively few changes of particular note in this CTU, which to many will be good news. We were spared this time the type of stealth functional changes that in previous CTUs have occasionally snuck in under the radar and surprised people in tournaments.
 
@@ -119,7 +122,7 @@ The following 50 cards which were already in the CTU document have had their off
 **[Heimdall 2.0](/ctu/22.12.html#pf33)** - *[Core damage](#core-damage)*  
 **[Ichi 1.0](/ctu/22.12.html#pf38)** - *[Core damage](#core-damage)*  
 **[Ichi 2.0](/ctu/22.12.html#pf38)** - *[Core damage](#core-damage)*  
-**[Ika](/ctu/22.12.html#pf39)** - *[Trojan](#trojan)*, *[This [card type]](#this-card-type), [Interface](#ika)*  
+**[Ika](/ctu/22.12.html#pf39)** - *[Trojan](#trojan)*  
 **[Janus 1.0](/ctu/22.12.html#pf3d)** - *[Core damage](#core-damage)*  
 **[Kamali 1.0](/ctu/22.12.html#pf3f)** - *[Core damage](#core-damage)*  
 **[Kill Switch](/ctu/22.12.html#pf40)** - *[This [card type]](#this-card-type), [Core damage](#core-damage)*  
@@ -223,6 +226,7 @@ Bishop
 Botulus  
 Chisel  
 Egret  
+Ika  
 Knight  
 Kyuban  
 Parasite  
@@ -240,7 +244,6 @@ Bullfrog
 Cerebral Static  
 Employee Strike  
 Fenris  
-Ika  
 Kill Switch  
 Monolith  
 Next Diamond  
@@ -359,9 +362,6 @@ The second subroutine on Bloom has been updated to say "directly inward from thi
 
 ### EMP Device
 This card has had the Bomb subtype removed and replaced by Weapon. This is technically a functional change, making the card tutorable by [Asmund Pudlat](https://netrunnerdb.com/en/card/33082), but it's obviously mostly for flavor and consistency reasons.
-
-### Ika
-The long process of adding the "interface" ability flag to all existing icebreakers finally concludes. Most of the icebreakers received this change in [CTU 1.0](https://nullsignal.games/wp-content/uploads/2021/08/NISEI-Card-Updates-v1.0.pdf), with a few stragglers being added in later versions. For whatever reason, Ika was the only one still missing it, but has now come in from the cold.
 
 ### Malia Z0l0k4
 "An" has been replaced with "1". NSG are generally moving towards specifying quantities with numbers rather than text.
@@ -523,7 +523,7 @@ For convenience of linking, this article also uses hosted versions of [CR 22.12]
 
 ## Acknowledgements
 *Proofreading & factchecking*  
-Cephalopod Wizard
-tbu3k
-coldlava
-JayPumpkin
+Cephalopod Wizard  
+tbu3k  
+coldlava  
+JayPumpkin  
