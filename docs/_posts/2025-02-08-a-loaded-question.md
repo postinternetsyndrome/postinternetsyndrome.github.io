@@ -19,7 +19,7 @@ There's been some talk recently about a fun combo, and I want to talk about it t
 
 Sorry officer, it's my God-given right!
 
-This is not exactly breaking news, but it's a niche interaction that has not received a lot of attention before. We're talking about [Assimilator](https://netrunnerdb.com/en/card/21008).
+This is not exactly breaking news, but it's a niche interaction that has not received a lot of attention before. We're talking today about [Assimilator](https://netrunnerdb.com/en/card/21008).
 
 [![Assimilator](https://card-images.netrunnerdb.com/v2/large/21008.jpg)](https://netrunnerdb.com/en/card/21008)
 [![Apex](https://card-images.netrunnerdb.com/v2/large/09029.jpg)](https://netrunnerdb.com/en/card/09029)
@@ -38,9 +38,9 @@ But now... it's still a novelty. But a new aspect of Assimilator has been reveal
 > **10.9.1** To load a card with counters is to place those counters on that card. A card is empty when it is no longer hosting any counters of a type that were previously loaded onto it.  
 > **10.9.2** An ability on a card that refers to that card becoming empty is always linked to a preceding ability on that same card that loaded it with counters.
 
-Flipping cards also bypasses load/empty triggers! This means that credits and power counters are never placed on cards which would normally have them. Most of the time, this matters very little. Yes, you can flip [Daily Casts](https://netrunnerdb.com/en/card/26094), but then you just have an empty Daily Casts. But it turns out there are exactly two cards which transcend this boring default: [Earthrise Hotel](https://netrunnerdb.com/en/card/06120) and [Juli Moreira Lee](https://netrunnerdb.com/en/card/34084).
+Flipping cards also bypasses load/empty triggers! This means that credits and power counters are never placed on cards which would normally have them. Most of the time, this matters very little. Yes, you can flip [Daily Casts](https://netrunnerdb.com/en/card/26094), but then you just have an empty Daily Casts. But it turns out there are exactly two cards which transcend this boring default: [Earthrise Hotel](https://netrunnerdb.com/en/card/31039) and [Juli Moreira Lee](https://netrunnerdb.com/en/card/34084).
 
-[![Earthrise Hotel](https://card-images.netrunnerdb.com/v2/large/06120.jpg)](https://netrunnerdb.com/en/card/06120)
+[![Earthrise Hotel](https://card-images.netrunnerdb.com/v2/large/31039.jpg)](https://netrunnerdb.com/en/card/31039)
 [![Juli Moreira Lee](https://card-images.netrunnerdb.com/v2/large/34084.jpg)](https://netrunnerdb.com/en/card/34084)
 
 Unlike every other card which loads power counters, these two are not worded in a way which makes removing the counter a cost to activate their ability[^2]. They just instruct you to remove a counter and do an effect, independently of each other. This makes them uniquely positioned to benefit from being flipped into play by Assimilator. If set up this way, they stay in play indefinitely, providing their benefit every single turn. Juli is particularly compelling here since she helps mitigate the *savage* tempo loss from using Assimilator in the first place.
