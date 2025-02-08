@@ -89,7 +89,7 @@ It was observed on Stimslack that there are some hilarious potential answers to 
 [TechnoCo](https://netrunnerdb.com/en/card/21060) can achieve a similar result. The Deva swap ability does not care about the increased install costs, so you can't really disrupt the combo itself this way, but you can match their credit gain exactly and potentially stave of the Vamp attack.
 
 ### References
-This article uses the [NSG Comprehensive Rules Document version 23.08](https://access.nullsignal.games/CompRules/Null-Signal-Games-Netrunner-Comprehensive-Rules-v23.08.pdf), which was released on 9 December 2022.
+This article uses the [NSG Comprehensive Rules Document version 23.08](https://access.nullsignal.games/CompRules/Null-Signal-Games-Netrunner-Comprehensive-Rules-v23.08.pdf), which was released on 7 August 2023.
 
 For convenience of linking, this article also uses NSG rules team member Ruben Pieter's [personal hosted version of the CR](https://rubenpieters.github.io/netrunner-comprehensive-rules/), which is an html rendering of the document where you can link directly to individual rules. This is not an official NSG resource and it may be moved or removed in the future. To learn more about this project, visit the [github repo](https://github.com/rubenpieters/netrunner-comprehensive-rules).
 
